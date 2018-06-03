@@ -475,6 +475,22 @@ KZR = {
 	color = rgb { 255  0  0 }
 	color_ui = rgb { 152  130  191 }
 }
+KRR = {
+	color = rgb { 144  0  0 }
+	color_ui = rgb { 152  130  191 }
+}
+NUP = {
+	color = rgb { 255  255  0 }
+	color_ui = rgb { 152  130  191 }
+}
+GNN = {
+	color = rgb { 255  255  255 }
+	color_ui = rgb { 152  130  191 }
+}
+ONR = {
+	color = rgb { 51  153  51 }
+	color_ui = rgb { 152  130  191 }
+}
 D01 = {
 	color = rgb { 200 100 31 }
 	color_ui = rgb { 245 123 38 }
