@@ -479,16 +479,28 @@ KRR = {
 	color = rgb { 144  0  0 }
 	color_ui = rgb { 152  130  191 }
 }
-NUP = {
-	color = rgb { 255  255  0 }
-	color_ui = rgb { 152  130  191 }
-}
 GNN = {
 	color = rgb { 255  255  255 }
 	color_ui = rgb { 152  130  191 }
 }
 ONR = {
 	color = rgb { 51  153  51 }
+	color_ui = rgb { 152  130  191 }
+}
+FRP = {
+	color = rgb { 102  51  0 }
+	color_ui = rgb { 152  130  191 }
+}
+KRL = {
+	color = rgb { 255  102  102 }
+	color_ui = rgb { 152  130  191 }
+}
+WPP = {
+	color = rgb { 144  0  144 }
+	color_ui = rgb { 152  130  191 }
+}
+PPK = {
+	color = rgb { 0  102  255 }
 	color_ui = rgb { 152  130  191 }
 }
 D01 = {
