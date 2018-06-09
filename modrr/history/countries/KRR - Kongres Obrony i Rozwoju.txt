@@ -33,7 +33,7 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Arjen van de Mortel"
+	name = "Tymoteusz"
 	desc = ""
 	picture = ""
 	expire = "1965.1.1"

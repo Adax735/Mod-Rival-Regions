@@ -503,6 +503,46 @@ PPK = {
 	color = rgb { 0  102  255 }
 	color_ui = rgb { 152  130  191 }
 }
+TYR = {
+	color = rgb { 69  0  144 }
+	color_ui = rgb { 152  130  191 }
+}
+NSP = {
+	color = rgb { 69  0  69 }
+	color_ui = rgb { 152  130  191 }
+}
+OWK = {
+	color = rgb { 69  0  0 }
+	color_ui = rgb { 152  130  191 }
+}
+FIS = {
+	color = rgb { 99  0  0 }
+	color_ui = rgb { 152  130  191 }
+}
+JEB = {
+	color = rgb { 99  0  99 }
+	color_ui = rgb { 152  130  191 }
+}
+SPK = {
+	color = rgb { 1  1  1 }
+	color_ui = rgb { 152  130  191 }
+}
+LIS = {
+	color = rgb { 111  111  111 }
+	color_ui = rgb { 152  130  191 }
+}
+ELE = {
+	color = rgb { 123  123  123 }
+	color_ui = rgb { 152  130  191 }
+}
+ALL = {
+	color = rgb { 0  100  0 }
+	color_ui = rgb { 152  130  191 }
+}
+AZM = {
+	color = rgb { 50  100  50 }
+	color_ui = rgb { 152  130  191 }
+}
 D01 = {
 	color = rgb { 200 100 31 }
 	color_ui = rgb { 245 123 38 }
