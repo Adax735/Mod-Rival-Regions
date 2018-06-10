@@ -472,75 +472,75 @@ ISR = {
 	color_ui = rgb { 152  130  191 }
 }
 KZR = {
-	color = rgb { 255  0  0 }
+	color = rgb { 255  51  51 }
 	color_ui = rgb { 152  130  191 }
 }
 KRR = {
-	color = rgb { 144  0  0 }
+	color = rgb { 204  0  0 }
 	color_ui = rgb { 152  130  191 }
 }
 GNN = {
-	color = rgb { 255  255  255 }
+	color = rgb { 191  191  191 }
 	color_ui = rgb { 152  130  191 }
 }
 ONR = {
-	color = rgb { 51  153  51 }
+	color = rgb { 0  153  51 }
 	color_ui = rgb { 152  130  191 }
 }
 FRP = {
-	color = rgb { 102  51  0 }
+	color = rgb { 153  51  0 }
 	color_ui = rgb { 152  130  191 }
 }
 KRL = {
-	color = rgb { 255  102  102 }
+	color = rgb { 255  0  0 }
 	color_ui = rgb { 152  130  191 }
 }
 WPP = {
-	color = rgb { 144  0  144 }
+	color = rgb { 153  51  51 }
 	color_ui = rgb { 152  130  191 }
 }
 PPK = {
-	color = rgb { 0  102  255 }
+	color = rgb { 255  51  0 }
 	color_ui = rgb { 152  130  191 }
 }
 TYR = {
-	color = rgb { 69  0  144 }
+	color = rgb { 255  77  166 }
 	color_ui = rgb { 152  130  191 }
 }
 NSP = {
-	color = rgb { 69  0  69 }
+	color = rgb { 51  51  51 }
 	color_ui = rgb { 152  130  191 }
 }
 OWK = {
-	color = rgb { 69  0  0 }
+	color = rgb { 255  204  0 }
 	color_ui = rgb { 152  130  191 }
 }
 FIS = {
-	color = rgb { 99  0  0 }
+	color = rgb { 0  0  255 }
 	color_ui = rgb { 152  130  191 }
 }
 JEB = {
-	color = rgb { 99  0  99 }
+	color = rgb { 51  102  153 }
 	color_ui = rgb { 152  130  191 }
 }
 SPK = {
-	color = rgb { 1  1  1 }
+	color = rgb { 0  204  255 }
 	color_ui = rgb { 152  130  191 }
 }
 LIS = {
-	color = rgb { 111  111  111 }
+	color = rgb { 255  153  0 }
 	color_ui = rgb { 152  130  191 }
 }
 ELE = {
-	color = rgb { 123  123  123 }
+	color = rgb { 0  153  255 }
 	color_ui = rgb { 152  130  191 }
 }
 ALL = {
-	color = rgb { 0  100  0 }
+	color = rgb { 77  77  51 }
 	color_ui = rgb { 152  130  191 }
 }
 AZM = {
-	color = rgb { 50  100  50 }
+	color = rgb { 204  0  102 }
 	color_ui = rgb { 152  130  191 }
 }
 D01 = {
