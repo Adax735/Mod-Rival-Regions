@@ -5,11 +5,11 @@ state={
 	
 	state_category = rural
 	history={
-		owner = FRP
+		owner = KRR
 		buildings = {
 			infrastructure = 6
 		}
-		add_core_of = FRP
+		add_core_of = KRR
 	}
 
 	provinces={

@@ -1,22 +1,20 @@
 state=
 {
-	id=163
-	name="STATE_163"
-	manpower = 18000
+	id=311
+	name="STATE_311"
+	manpower = 51000
 	
 	state_category = enclave
-	
-	history={
+	history=
+	{
 		owner = KRL
 		add_core_of = KRL
 		buildings = {
-			infrastructure = 5
-			3943 = {
+			infrastructure = 4
+			2077 = {
 				naval_base = 1
 			}
 		}
-	} 
-	provinces={	
-		3943 
 	}
+	provinces= { 2077 }
 }
