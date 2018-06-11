@@ -1,0 +1,62 @@
+bookmarks = {
+	bookmark = {
+		name = "RR_NAME"
+		desc = "RR_DESC"
+		date = 2017.9.1.12
+		picture = "GFX_select_date_1939"
+		default_country = "KRR"
+
+		KRR = {
+			history = KRR_DESC
+			ideology = communism
+			ideas = { }
+			focuses = { }
+		}
+
+		WPP = {
+			history = WPP_DESC
+			ideology = communism
+			ideas = { }
+			focuses = { }
+		}
+
+		FRP = {
+			history = FRP_DESC
+			ideology = communism
+			ideas = { }
+			focuses = { }
+		}
+
+		GNN = {
+			history = GNN_DESC
+			ideology = communism
+			ideas = { }
+			focuses = { }
+		}
+
+		KZR = {
+			history = KZR_DESC
+			ideology = communism
+			ideas = { }
+			focuses = { }
+		}
+
+		NSP = {
+			history = NSP_DESC
+			ideology = communism
+			ideas = { }
+			focuses = { }
+		}
+
+		KRL = {
+			history = KRL_DESC
+			ideology = communism
+			ideas = { }
+			focuses = { }
+		}
+
+		"---"={
+			history = "OTHER_RR_DESC"
+		}
+	}
+}
