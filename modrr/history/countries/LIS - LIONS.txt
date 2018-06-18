@@ -33,7 +33,7 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "idk"
+	name = "Marcin ZL"
 	desc = ""
 	picture = ""
 	expire = "1965.1.1"

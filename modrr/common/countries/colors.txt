@@ -528,7 +528,7 @@ SPK = {
 	color_ui = rgb { 152  130  191 }
 }
 LIS = {
-	color = rgb { 255  153  0 }
+	color = rgb { 75  66  244 }
 	color_ui = rgb { 152  130  191 }
 }
 ELE = {
