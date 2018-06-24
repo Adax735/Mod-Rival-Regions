@@ -1,4 +1,5 @@
 ﻿capital = 378
+
 oob = "RR_DEF"
 
 set_technology = {
