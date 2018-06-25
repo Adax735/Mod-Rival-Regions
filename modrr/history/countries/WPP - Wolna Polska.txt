@@ -35,9 +35,9 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Serek"
+	name = "Danio"
 	desc = ""
-	picture = ""
+	picture = "danio.dds"
 	expire = "1965.1.1"
 	ideology = anarchist_communism
 	traits = {

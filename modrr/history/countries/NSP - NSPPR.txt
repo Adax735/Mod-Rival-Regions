@@ -35,9 +35,9 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Joachim Volkschmit"
+	name = "Walter Fischer"
 	desc = ""
-	picture = ""
+	picture = "walterfisher.dds"
 	expire = "1965.1.1"
 	ideology = anarchist_communism
 	traits = {
