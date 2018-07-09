@@ -1,0 +1,5 @@
+﻿###########################
+#stability events
+###########################
+
+add_namespace = stability

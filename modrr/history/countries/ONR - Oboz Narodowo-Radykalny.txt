@@ -1,4 +1,4 @@
-﻿capital = 361
+﻿capital = 41
 
 oob = "RR_DEF"
 
@@ -12,15 +12,15 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 10
+			popularity = 0
 		}
 
 		fascism = {
-			popularity = 30
+			popularity = 100
 		}
 		
 		communism = {
-			popularity = 60
+			popularity = 0
 		}
 		
 		neutrality = { 
@@ -28,7 +28,7 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = communism
+	ruling_party = fascism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -37,9 +37,9 @@ set_politics = {
 create_country_leader = {
 	name = "Pomorski Żniwiarz"
 	desc = ""
-	picture = "żniwiarz.dds"
+	picture = "zniwiarz.dds"
 	expire = "1965.1.1"
-	ideology = anarchist_communism
+	ideology = falangism
 	traits = {
 		#
 	}

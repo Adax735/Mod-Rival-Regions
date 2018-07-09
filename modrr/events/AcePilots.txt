@@ -1,0 +1,9 @@
+﻿###########################
+# Ace pilots Events
+###########################
+
+add_namespace = ace_promoted
+add_namespace = ace_died
+add_namespace = ace_killed_by_ace
+add_namespace = ace_killed_other_ace
+add_namespace = aces_killed_each_other

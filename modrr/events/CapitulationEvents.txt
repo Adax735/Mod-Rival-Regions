@@ -1,0 +1,5 @@
+﻿###########################
+# Capitulation Events
+###########################
+
+add_namespace = country_capitulated
