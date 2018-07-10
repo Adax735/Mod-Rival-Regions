@@ -1,4 +1,4 @@
-﻿capital = 666
+﻿capital = 141
 
 oob = "RR_DEF"
 
@@ -24,7 +24,7 @@ set_politics = {
 		}
 		
 		neutrality = { 
-			popularity = 0
+			popularity = 100
 		}
 	}
 	

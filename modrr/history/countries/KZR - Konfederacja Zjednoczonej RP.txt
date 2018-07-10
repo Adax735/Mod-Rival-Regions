@@ -1,4 +1,4 @@
-﻿capital = 239
+﻿capital = 217
 
 oob = "RR_DEF"
 
