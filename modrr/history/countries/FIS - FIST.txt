@@ -4,8 +4,19 @@ oob = "RR_DEF"
 
 set_technology = {
 	infantry_weapons = 1
+	tech_support = 1
+	gw_artillery = 1
 	gwtank = 1
 	basic_light_tank = 1
+	early_fighter = 1
+	cv_early_fighter = 1
+	naval_bomber1 = 1
+	cv_naval_bomber1 = 1
+	early_bomber = 1
+	early_destroyer = 1
+	early_submarine = 1
+	early_carrier = 1
+	transport = 1
 }
 
 set_politics = {
@@ -28,7 +39,7 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = communism
+	ruling_party = neutrality
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
