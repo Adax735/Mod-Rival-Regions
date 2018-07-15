@@ -46,7 +46,7 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Lewis"
+	name = "king levis"
 	desc = ""
 	picture = "lewis.dds"
 	expire = "1965.1.1"
