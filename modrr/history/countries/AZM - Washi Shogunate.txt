@@ -1,6 +1,6 @@
 ﻿capital = 282
 
-oob = "RR_DEF"
+oob = "RR_AZM"
 
 set_technology = {
 	infantry_weapons = 1

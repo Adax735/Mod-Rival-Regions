@@ -1,6 +1,6 @@
 ﻿capital = 41
 
-oob = "RR_DEF"
+oob = "RR_ONR"
 
 set_technology = {
 	infantry_weapons = 1
@@ -27,7 +27,7 @@ set_politics = {
 		}
 
 		fascism = {
-			popularity = 100
+			popularity = 0
 		}
 		
 		communism = {
@@ -35,11 +35,11 @@ set_politics = {
 		}
 		
 		neutrality = { 
-			popularity = 0
+			popularity = 100
 		}
 	}
 	
-	ruling_party = fascism
+	ruling_party = neutrality
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -50,7 +50,7 @@ create_country_leader = {
 	desc = ""
 	picture = "zniwiarz.dds"
 	expire = "1965.1.1"
-	ideology = falangism
+	ideology = centrism
 	traits = {
 		#
 	}

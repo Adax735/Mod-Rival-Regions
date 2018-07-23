@@ -1,6 +1,6 @@
 ﻿capital = 554
 
-oob = "RR_DEF"
+oob = "RR_UZT"
 
 set_technology = {
 	infantry_weapons = 1
@@ -50,7 +50,7 @@ create_country_leader = {
 	desc = ""
 	picture = "marcinZL.dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = centrism
 	traits = {
 		#
 	}

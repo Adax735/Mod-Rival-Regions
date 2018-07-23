@@ -1,6 +1,6 @@
 ﻿capital = 141
 
-oob = "RR_DEF"
+oob = "RR_FIS"
 
 set_technology = {
 	infantry_weapons = 1
@@ -46,7 +46,7 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Thor Odynson"
+	name = "Blady"
 	desc = ""
 	picture = "thorodynson.dds"
 	expire = "1965.1.1"
