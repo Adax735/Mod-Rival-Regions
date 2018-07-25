@@ -19,6 +19,10 @@ set_technology = {
 	transport = 1
 }
 
+add_ideas = {
+	monarchia_konstytucyjna
+}
+
 set_politics = {
 
 	parties = {

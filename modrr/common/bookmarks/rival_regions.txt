@@ -9,49 +9,63 @@ bookmarks = {
 		KRR = {
 			history = KRR_DESC
 			ideology = neutrality
-			ideas = { }
+			ideas = {
+				monarchia_konstytucyjna
+			}
 			focuses = { }
 		}
 
 		WPP = {
 			history = WPP_DESC
 			ideology = neutrality
-			ideas = { }
+			ideas = {
+				monarchia_konstytucyjna
+			}
 			focuses = { }
 		}
 
 		FRP = {
 			history = FRP_DESC
 			ideology = neutrality
-			ideas = { }
+			ideas = {
+				monarchia_konstytucyjna
+			}
 			focuses = { }
 		}
 
 		GNN = {
 			history = GNN_DESC
 			ideology = neutrality
-			ideas = { }
+			ideas = {
+				republika_prezydencka
+			}
 			focuses = { }
 		}
 
 		KZR = {
 			history = KZR_DESC
 			ideology = neutrality
-			ideas = { }
+			ideas = {
+				republika_prezydencka
+			}
 			focuses = { }
 		}
 
 		NSP = {
 			history = NSP_DESC
 			ideology = neutrality
-			ideas = { }
+			ideas = {
+				dyktatura
+			}
 			focuses = { }
 		}
 
 		KRL = {
 			history = KRL_DESC
 			ideology = neutrality
-			ideas = { }
+			ideas = {
+				dyktatura
+			}
 			focuses = { }
 		}
 
