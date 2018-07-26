@@ -4,8 +4,6 @@ ideas = {
 
 		republika_prezydencka = {
 
-			picture = neutrality_idea
-
 			allowed = {
 				always = no
 			}
@@ -23,8 +21,6 @@ ideas = {
 		}
 
 		system_partii_dominujacej = {
-
-			picture = neutrality_idea
 
 			allowed = {
 				always = no
@@ -44,8 +40,6 @@ ideas = {
 
 		dyktatura = {
 
-			picture = neutrality_idea
-
 			allowed = {
 				always = no
 			}
@@ -64,8 +58,6 @@ ideas = {
 
 		system_jednopartyjny = {
 
-			picture = neutrality_idea
-
 			allowed = {
 				always = no
 			}
@@ -83,9 +75,7 @@ ideas = {
 		}
 
 		monarchia_konstytucyjna = {
-
-			picture = neutrality_idea
-
+		
 			allowed = {
 				always = no
 			}
