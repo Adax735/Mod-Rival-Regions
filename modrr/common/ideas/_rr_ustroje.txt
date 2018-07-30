@@ -14,9 +14,9 @@ ideas = {
 				stability_factor = -0.15
 				political_power_factor = 0.20
 				conscription_factor = -0.1
-				production_factory_max_efficiency_factor = 0.1
-				production_speed_buildings_factor = 0.1 
-				research_time_factor = -0.1
+				production_factory_max_efficiency_factor = 0.25
+				production_speed_buildings_factor = 0.25
+				research_time_factor = -0.15
 			}
 		}
 
@@ -29,12 +29,12 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				stability_factor = -0.1
+				stability_factor = 0.2
 				political_power_factor = -0.1
-				conscription_factor = -0.1
+				conscription_factor = 0.05
 				production_factory_max_efficiency_factor = -0.1
-				production_speed_buildings_factor = -0.1
-				research_time_factor = 0.1
+				production_speed_buildings_factor = 0
+				research_time_factor = -0.1
 			}
 		}
 
@@ -49,10 +49,11 @@ ideas = {
 			modifier = {
 				stability_factor = 0.30
 				political_power_factor = -0.2
-				conscription_factor = 0.15
-				production_factory_max_efficiency_factor = -0.1
-				production_speed_buildings_factor = -0.1
+				conscription_factor = 0.25
+				production_factory_max_efficiency_factor = -0.25
+				production_speed_buildings_factor = -0.2
 				research_time_factor = 0.1
+				training_time_factor = -0.1
 			}
 		}
 
@@ -65,12 +66,13 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				stability_factor = 0.30
+				stability_factor = 0.25
 				political_power_factor = -0.15
-				conscription_factor = 0.125
-				production_factory_max_efficiency_factor = -0.05
+				conscription_factor = 0.15
+				production_factory_max_efficiency_factor = -0.15
 				production_speed_buildings_factor = -0.05
 				research_time_factor = 0.05
+				training_time_factor = -0.05
 			}
 		}
 
@@ -84,8 +86,12 @@ ideas = {
 
 			modifier = {
 				stability_factor = 0.25
-				conscription_factor = 0.1
-				political_power_factor = -0.05
+				political_power_factor = -0.1
+				conscription_factor = 0.05
+				production_factory_max_efficiency_factor = -0.05
+				production_speed_buildings_factor = 0.1
+				research_time_factor = 0
+				cavalry_attack_factor = 0.1
 			}
 		}
 	}

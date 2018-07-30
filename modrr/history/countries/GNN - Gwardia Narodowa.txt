@@ -20,7 +20,7 @@ set_technology = {
 }
 
 add_ideas = {
-	republika_prezydencka
+	monarchia_konstytucyjna
 }
 
 set_politics = {
