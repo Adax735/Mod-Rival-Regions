@@ -21,7 +21,7 @@ technologies = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1936
+		start_year = 2017
 		folder = {
 			name = industry_folder
 			position = { x = 0 y = 0 }
@@ -52,7 +52,7 @@ technologies = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1937
+		start_year = 2018
 		
 		folder = {
 			name = industry_folder
@@ -83,7 +83,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1939
+		start_year = 2020
 		
 		folder = {
 			name = industry_folder
@@ -125,7 +125,7 @@ technologies = {
 		
 		
 		research_cost = 2
-		start_year = 1941
+		start_year = 2022
 		
 		folder = {
 			name = industry_folder
@@ -152,7 +152,7 @@ technologies = {
 		line_change_production_efficiency_factor = 0.2
 		
 		research_cost = 2.5
-		start_year = 1943
+		start_year = 2024
 		
 		XOR = {
 			streamlined_line
@@ -183,7 +183,7 @@ technologies = {
 		production_factory_efficiency_gain_factor = 0.1
 			
 		research_cost = 2.5
-		start_year = 1943
+		start_year = 2024
 		
 		XOR = {
 			flexible_line
@@ -224,7 +224,7 @@ technologies = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1937
+		start_year = 2018
 		
 		folder = {
 			name = industry_folder
@@ -255,7 +255,7 @@ technologies = {
 		equipment_conversion_speed = 0.40
 
 		research_cost = 1.5
-		start_year = 1939
+		start_year = 2020
 		
 		folder = {
 			name = industry_folder
@@ -364,7 +364,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1937
+		start_year = 2018
 		
 		folder = {
 			name = industry_folder
@@ -402,7 +402,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1939
+		start_year = 2020
 		
 		folder = {
 			name = industry_folder
@@ -439,7 +439,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1941
+		start_year = 2022
 		
 		folder = {
 			name = industry_folder
@@ -471,7 +471,7 @@ technologies = {
 		global_building_slots_factor = 0.20
 		
 		research_cost = 2
-		start_year = 1943
+		start_year = 2024
 		
 		folder = {
 			name = industry_folder
@@ -590,7 +590,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1937
+		start_year = 2018
 		
 		folder = {
 			name = industry_folder
@@ -630,7 +630,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1939
+		start_year = 2020
 		
 		folder = {
 			name = industry_folder
@@ -670,7 +670,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1941
+		start_year = 2022
 		
 		folder = {
 			name = industry_folder
@@ -706,7 +706,7 @@ technologies = {
 		
 		
 		research_cost = 2
-		start_year = 1943
+		start_year = 2024
 		
 		folder = {
 			name = industry_folder
@@ -749,7 +749,7 @@ technologies = {
 		}
 		
 		research_cost = 3
-		start_year = 1936
+		start_year = 2017
 		folder = {
 			name = industry_folder
 			position = { x = 0 y = 0 }
@@ -791,7 +791,7 @@ technologies = {
 			}
 		}
 
-		start_year = 1937
+		start_year = 2018
 
 		path = {
 			leads_to_tech = improved_oil_processing
@@ -849,7 +849,7 @@ technologies = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1939
+		start_year = 2020
 		
 		folder = {
 			name = industry_folder
@@ -900,7 +900,7 @@ technologies = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1941
+		start_year = 2022
 		
 		folder = {
 			name = industry_folder
@@ -946,7 +946,7 @@ technologies = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1943
+		start_year = 2024
 		
 		folder = {
 			name = industry_folder
@@ -998,7 +998,7 @@ technologies = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1937
+		start_year = 2018
 		
 		folder = {
 			name = industry_folder
@@ -1049,7 +1049,7 @@ technologies = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1939
+		start_year = 2020
 		
 		folder = {
 			name = industry_folder
@@ -1100,7 +1100,7 @@ technologies = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1941
+		start_year = 2022
 		
 		folder = {
 			name = industry_folder
@@ -1146,7 +1146,7 @@ technologies = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1943
+		start_year = 2024
 		
 		folder = {
 			name = industry_folder
@@ -1197,7 +1197,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1936
+		start_year = 2017
 		categories = {
 			industry
 			construction_tech
@@ -1283,7 +1283,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1937
+		start_year = 2018
 		
 		categories = {
 			industry
@@ -1314,7 +1314,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1937
+		start_year = 2018
 		
 		categories = {
 			industry
@@ -1372,7 +1372,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1939
+		start_year = 2020
 		
 		categories = {
 			industry
@@ -1414,7 +1414,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1939
+		start_year = 2020
 		
 		categories = {
 			industry
@@ -1471,7 +1471,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1941
+		start_year = 2022
 		
 		categories = {
 			industry
@@ -1502,7 +1502,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1941
+		start_year = 2022
 		
 		categories = {
 			industry
@@ -1556,7 +1556,7 @@ technologies = {
 
 		
 		research_cost = 2
-		start_year = 1943
+		start_year = 2024
 		
 		categories = {
 			industry
@@ -1588,7 +1588,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1943
+		start_year = 2024
 		
 		categories = {
 			industry

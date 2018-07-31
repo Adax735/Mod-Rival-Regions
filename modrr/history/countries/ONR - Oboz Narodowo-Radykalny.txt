@@ -50,9 +50,9 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Pomorski Żniwiarz"
+	name = "Zbigniew Stonoga"
 	desc = ""
-	picture = "zniwiarz.dds"
+	picture = "stonoga.dds"
 	expire = "1965.1.1"
 	ideology = centrism
 	traits = {

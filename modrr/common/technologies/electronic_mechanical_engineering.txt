@@ -14,7 +14,7 @@ technologies = {
 		}
 		
 		research_cost = 1
-		start_year = 1936
+		start_year = 2017
 		folder = {
 			name = electronics_folder
 			position = { x = 0 y = 0 }
@@ -117,7 +117,7 @@ technologies = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1938
+		start_year = 2019
 		
 		folder = {
 			name = electronics_folder
@@ -153,7 +153,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1939
+		start_year = 2020
 		
 		folder = {
 			name = electronics_folder
@@ -186,7 +186,7 @@ technologies = {
 		}
 		
 		research_cost = 2.5
-		start_year = 1940
+		start_year = 2021
 		
 		folder = {
 			name = electronics_folder
@@ -219,7 +219,7 @@ technologies = {
 		}
 		
 		research_cost = 2.5
-		start_year = 1941
+		start_year = 2022
 		
 		folder = {
 			name = electronics_folder
@@ -247,7 +247,7 @@ technologies = {
 		static_anti_air_hit_chance_factor = 0.2
 		
 		research_cost = 2.5
-		start_year = 1942
+		start_year = 2023
 		
 		folder = {
 			name = electronics_folder
@@ -310,7 +310,7 @@ technologies = {
 		}
 		
 		research_cost = 2.5
-		start_year = 1938
+		start_year = 2019
 		
 		folder = {
 			name = electronics_folder
@@ -358,7 +358,7 @@ technologies = {
 		}
 		
 		research_cost = 2.5
-		start_year = 1940
+		start_year = 2021
 		
 		folder = {
 			name = electronics_folder
@@ -402,7 +402,7 @@ technologies = {
 		}
 		
 		research_cost = 2.5
-		start_year = 1942
+		start_year = 2023
 		
 		folder = {
 			name = electronics_folder
@@ -437,7 +437,7 @@ technologies = {
 		encryption = 1
 		
 		research_cost = 1
-		start_year = 1938
+		start_year = 2019
 		
 		folder = {
 			name = electronics_folder
@@ -460,7 +460,7 @@ technologies = {
 		encryption = 1
 		
 		research_cost = 1
-		start_year = 1940
+		start_year = 2021
 		
 		folder = {
 			name = electronics_folder
@@ -483,7 +483,7 @@ technologies = {
 		encryption = 1
 		
 		research_cost = 1
-		start_year = 1942
+		start_year = 2023
 		
 		folder = {
 			name = electronics_folder
@@ -506,7 +506,7 @@ technologies = {
 		decryption = 1
 		
 		research_cost = 1.5
-		start_year = 1938
+		start_year = 2019
 		
 		folder = {
 			name = electronics_folder
@@ -529,7 +529,7 @@ technologies = {
 		decryption = 1
 		
 		research_cost = 1.5
-		start_year = 1940
+		start_year = 2021
 		
 		folder = {
 			name = electronics_folder
@@ -552,7 +552,7 @@ technologies = {
 		decryption = 1
 		
 		research_cost = 1.5
-		start_year = 1942
+		start_year = 2023
 		
 		folder = {
 			name = electronics_folder
@@ -582,7 +582,7 @@ technologies = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1943
+		start_year = 2024
 		
 		folder = {
 			name = electronics_folder
@@ -628,7 +628,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1944
+		start_year = 2025
 		
 		folder = {
 			name = electronics_folder
@@ -676,7 +676,7 @@ technologies = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1945
+		start_year = 2026
 		
 		folder = {
 			name = electronics_folder
@@ -714,7 +714,7 @@ technologies = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1946
+		start_year = 2027
 		
 		folder = {
 			name = electronics_folder
@@ -737,7 +737,7 @@ technologies = {
 			position = { x = 2 y = 2 }
 		}
 		
-		start_year = 1944
+		start_year = 2025
 		research_cost = 2
 
 		folder = {
@@ -770,7 +770,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		start_year = 1940
+		start_year = 2021
 		research_cost = 5
 		
 		folder = {
@@ -813,7 +813,7 @@ technologies = {
 
 		# can build reactors
 		
-		start_year = 1943
+		start_year = 2024
 		research_cost = 5
 		
 		folder = {
@@ -842,7 +842,7 @@ technologies = {
 
 	nukes = {
 	
-		start_year = 1945
+		start_year = 2026
 		research_cost = 5
 		
 		folder = {
