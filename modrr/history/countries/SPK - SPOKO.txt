@@ -50,9 +50,9 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "idk"
+	name = "Tomasz Z."
 	desc = ""
-	picture = ""
+	picture = "null_spk.dds"
 	expire = "1965.1.1"
 	ideology = centrism
 	traits = {

@@ -177,7 +177,7 @@ ideologies = {
 		color = { 124 124 124 }
 		
 		
-		war_impact_on_world_tension = 1	#no major danger
+		war_impact_on_world_tension = 1
 		faction_impact_on_world_tension = 1
 		
 		rules = {
@@ -187,7 +187,7 @@ ideologies = {
 		}
 		
 		modifiers = {
-			#increased_influence_factor = 0 #30% easier to influence
+			#increased_influence_factor = 0
 			generate_wargoal_tension = 0
 			join_faction_tension = 0
 			lend_lease_tension = 0

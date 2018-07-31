@@ -1,0 +1,386 @@
+default = {
+	navy = {
+		male = {
+		"gfx/leaders/null_leader.dds"
+		}
+		female = {
+		"gfx/leaders/null_leader.dds"
+		}
+	}
+	
+	army = {
+		male = {
+		"gfx/leaders/null_leader.dds"
+		}
+		female = {
+		"gfx/leaders/null_leader.dds"
+		}
+	}
+	
+	male = {
+		"gfx/leaders/null_leader.dds"
+	}
+	female = {
+		"gfx/leaders/null_leader.dds"
+	}
+}
+
+ALL = {
+	navy = {
+		male = {
+		"gfx/leaders/null_leader.dds"
+		}
+		female = {
+		"gfx/leaders/null_leader.dds"
+		}
+	}
+	
+	army = {
+		male = {
+		"gfx/leaders/null_leader.dds"
+		}
+		female = {
+		"gfx/leaders/null_leader.dds"
+		}
+	}
+}
+
+ELE = {
+	navy = {
+		male = {
+		"gfx/leaders/null_leader.dds"
+		}
+		female = {
+		"gfx/leaders/null_leader.dds"
+		}
+	}
+	
+	army = {
+		male = {
+		"gfx/leaders/null_leader.dds"
+		}
+		female = {
+		"gfx/leaders/null_leader.dds"
+		}
+	}
+}
+
+FIS = {
+	navy = {
+		male = {
+		"gfx/leaders/null_leader.dds"
+		}
+		female = {
+		"gfx/leaders/null_leader.dds"
+		}
+	}
+	
+	army = {
+		male = {
+		"gfx/leaders/null_leader.dds"
+		}
+		female = {
+		"gfx/leaders/null_leader.dds"
+		}
+	}
+}
+
+FRP = {
+	navy = {
+		male = {
+		"gfx/leaders/null_leader.dds"
+		}
+		female = {
+		"gfx/leaders/null_leader.dds"
+		}
+	}
+	
+	army = {
+		male = {
+		"gfx/leaders/null_leader.dds"
+		}
+		female = {
+		"gfx/leaders/null_leader.dds"
+		}
+	}
+}
+
+GNN = {
+	navy = {
+		male = {
+		"gfx/leaders/null_leader.dds"
+		}
+		female = {
+		"gfx/leaders/null_leader.dds"
+		}
+	}
+	
+	army = {
+		male = {
+		"gfx/leaders/null_leader.dds"
+		}
+		female = {
+		"gfx/leaders/null_leader.dds"
+		}
+	}
+}
+
+JEB = {
+	navy = {
+		male = {
+		"gfx/leaders/null_leader.dds"
+		}
+		female = {
+		"gfx/leaders/null_leader.dds"
+		}
+	}
+	
+	army = {
+		male = {
+		"gfx/leaders/null_leader.dds"
+		}
+		female = {
+		"gfx/leaders/null_leader.dds"
+		}
+	}
+}
+
+KRL = {
+	navy = {
+		male = {
+		"gfx/leaders/null_leader.dds"
+		}
+		female = {
+		"gfx/leaders/null_leader.dds"
+		}
+	}
+	
+	army = {
+		male = {
+		"gfx/leaders/null_leader.dds"
+		}
+		female = {
+		"gfx/leaders/null_leader.dds"
+		}
+	}
+}
+
+KZR = {
+	navy = {
+		male = {
+		"gfx/leaders/null_leader.dds"
+		}
+		female = {
+		"gfx/leaders/null_leader.dds"
+		}
+	}
+	
+	army = {
+		male = {
+		"gfx/leaders/null_leader.dds"
+		}
+		female = {
+		"gfx/leaders/null_leader.dds"
+		}
+	}
+}
+
+KRR = {
+	navy = {
+		male = {
+		"gfx/leaders/null_leader.dds"
+		}
+		female = {
+		"gfx/leaders/null_leader.dds"
+		}
+	}
+	
+	army = {
+		male = {
+		"gfx/leaders/null_leader.dds"
+		}
+		female = {
+		"gfx/leaders/null_leader.dds"
+		}
+	}
+}
+
+LIS = {
+	navy = {
+		male = {
+		"gfx/leaders/null_leader.dds"
+		}
+		female = {
+		"gfx/leaders/null_leader.dds"
+		}
+	}
+	
+	army = {
+		male = {
+		"gfx/leaders/null_leader.dds"
+		}
+		female = {
+		"gfx/leaders/null_leader.dds"
+		}
+	}
+}
+
+NSP = {
+	navy = {
+		male = {
+		"gfx/leaders/null_leader.dds"
+		}
+		female = {
+		"gfx/leaders/null_leader.dds"
+		}
+	}
+	
+	army = {
+		male = {
+		"gfx/leaders/null_leader.dds"
+		}
+		female = {
+		"gfx/leaders/null_leader.dds"
+		}
+	}
+}
+
+ONR = {
+	navy = {
+		male = {
+		"gfx/leaders/null_leader.dds"
+		}
+		female = {
+		"gfx/leaders/null_leader.dds"
+		}
+	}
+	
+	army = {
+		male = {
+		"gfx/leaders/null_leader.dds"
+		}
+		female = {
+		"gfx/leaders/null_leader.dds"
+		}
+	}
+}
+
+OWK = {
+	navy = {
+		male = {
+		"gfx/leaders/null_leader.dds"
+		}
+		female = {
+		"gfx/leaders/null_leader.dds"
+		}
+	}
+	
+	army = {
+		male = {
+		"gfx/leaders/null_leader.dds"
+		}
+		female = {
+		"gfx/leaders/null_leader.dds"
+		}
+	}
+}
+
+PPK = {
+	navy = {
+		male = {
+		"gfx/leaders/null_leader.dds"
+		}
+		female = {
+		"gfx/leaders/null_leader.dds"
+		}
+	}
+	
+	army = {
+		male = {
+		"gfx/leaders/null_leader.dds"
+		}
+		female = {
+		"gfx/leaders/null_leader.dds"
+		}
+	}
+}
+
+SPK = {
+	navy = {
+		male = {
+		"gfx/leaders/null_leader.dds"
+		}
+		female = {
+		"gfx/leaders/null_leader.dds"
+		}
+	}
+	
+	army = {
+		male = {
+		"gfx/leaders/null_leader.dds"
+		}
+		female = {
+		"gfx/leaders/null_leader.dds"
+		}
+	}
+}
+
+TYR = {
+	navy = {
+		male = {
+		"gfx/leaders/null_leader.dds"
+		}
+		female = {
+		"gfx/leaders/null_leader.dds"
+		}
+	}
+	
+	army = {
+		male = {
+		"gfx/leaders/null_leader.dds"
+		}
+		female = {
+		"gfx/leaders/null_leader.dds"
+		}
+	}
+}
+
+AZM = {
+	navy = {
+		male = {
+		"gfx/leaders/null_leader.dds"
+		}
+		female = {
+		"gfx/leaders/null_leader.dds"
+		}
+	}
+	
+	army = {
+		male = {
+		"gfx/leaders/null_leader.dds"
+		}
+		female = {
+		"gfx/leaders/null_leader.dds"
+		}
+	}
+}
+
+WPP = {
+	navy = {
+		male = {
+		"gfx/leaders/null_leader.dds"
+		}
+		female = {
+		"gfx/leaders/null_leader.dds"
+		}
+	}
+	
+	army = {
+		male = {
+		"gfx/leaders/null_leader.dds"
+		}
+		female = {
+		"gfx/leaders/null_leader.dds"
+		}
+	}
+}
