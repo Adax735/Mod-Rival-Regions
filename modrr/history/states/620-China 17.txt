@@ -4,7 +4,6 @@ state={
 
 	history={
 		owner = AZM
-		add_core_of = AZM
 		buildings = {
 			infrastructure = 3
 			arms_factory = 3

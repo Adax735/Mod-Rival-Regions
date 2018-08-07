@@ -2,7 +2,7 @@
 state={
 	id=152
 	name="STATE_152"
-	manpower = 2275377
+	manpower = 12275377
 	
 	state_category = city
 	
@@ -14,7 +14,7 @@ state={
 	history={
 		owner = FRP
 		buildings = {
-			infrastructure = 6
+			infrastructure = 8
 			industrial_complex = 3
 		}
 		victory_points = {

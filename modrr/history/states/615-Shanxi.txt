@@ -9,7 +9,6 @@ state=
 	history=
 	{
 		owner = AZM
-		add_core_of = AZM
 		victory_points = {
 			1519 3 
 		}

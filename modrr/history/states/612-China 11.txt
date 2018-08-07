@@ -8,7 +8,6 @@ state={
 
 	history={
 		owner = AZM
-		add_core_of = AZM
 		buildings = {
 			infrastructure = 1
 		}

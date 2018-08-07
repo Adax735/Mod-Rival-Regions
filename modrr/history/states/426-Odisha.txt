@@ -14,7 +14,6 @@ state={
 
 	history={
 		owner = ALL
-		add_core_of = ALL
 		buildings = {
 			infrastructure = 4
 			arms_factory = 1
