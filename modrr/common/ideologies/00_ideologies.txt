@@ -182,7 +182,7 @@ ideologies = {
 		
 		rules = {
 			can_force_government = no
-			can_puppet = yes
+			can_puppet = no
 			can_send_volunteers = yes
 		}
 		
@@ -202,6 +202,6 @@ ideologies = {
 		can_be_boosted = no
 		can_collaborate = yes
 
-		ai_neutral = yes # 
+		ai_fascist = yes # 
 	}
 }
