@@ -7,12 +7,12 @@ state={
 	state_category = rural
 
 	history={
-		owner = PPK
+		owner = LPP
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
 		}
-		add_core_of = PPK
+		add_core_of = LPP
 		victory_points = {
 			8216 1 
 		}

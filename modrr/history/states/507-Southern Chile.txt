@@ -7,11 +7,11 @@ state={
 	state_category = pastoral
 
 	history={
-		owner = PPK
+		owner = LPP
 		buildings = {
 			infrastructure = 1
 		}
-		add_core_of = PPK
+		add_core_of = LPP
 	}
 
 	provinces={

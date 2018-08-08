@@ -7,7 +7,7 @@ state={
 	state_category = town
 
 	history={
-		owner = PPK
+		owner = LPP
 		buildings = {
 			infrastructure = 5
 			air_base = 2
@@ -15,7 +15,7 @@ state={
 				naval_base = 3
 			}
 		}
-		add_core_of = PPK
+		add_core_of = LPP
 		victory_points = {
 			10447 3 
 		}
