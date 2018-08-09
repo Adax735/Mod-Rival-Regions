@@ -1,4 +1,4 @@
-capital = 300
+﻿capital = 300
 
 oob = "RR_LPP"
 
