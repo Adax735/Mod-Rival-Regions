@@ -37,17 +37,17 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				date > "1937.1.1"
+				date > "2018.1.1"
 			}
 			
 			modifier = {
 				factor = 5
-				date > "1938.1.1"
+				date > "2019.1.1"
 			}
 			
 			modifier = {
 				factor = 5
-				date > "1939.1.1"
+				date > "2020.1.1"
 			}
 		}
 	}
@@ -68,7 +68,7 @@ technologies = {
 		
 		research_cost = 1.5
 
-		start_year = 1936
+		start_year = 2017
 		
 		folder = {
 			name = artillery_folder
@@ -84,17 +84,17 @@ technologies = {
 
 			modifier = {
 				factor = 2
-				date > "1937.1.1"
+				date > "2018.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1938.1.1"
+				date > "2019.1.1"
 			}
 			
 			modifier = {
 				factor = 5
-				date > "1939.1.1"
+				date > "2020.1.1"
 			}
 		}
 	}
@@ -119,7 +119,7 @@ technologies = {
 		
 		research_cost = 1
 
-		start_year = 1939
+		start_year = 2020
 		
 		folder = {
 			name = artillery_folder
@@ -135,17 +135,17 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				date > "1938.1.9"
+				date > "2019.1.9"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1939.1.1"
+				date > "2020.1.1"
 			}
 			
 			modifier = {
 				factor = 5
-				date > "1939.1.6"
+				date > "2020.1.6"
 			}
 		}
 	}
@@ -171,7 +171,7 @@ technologies = {
 		
 		research_cost = 1
 
-		start_year = 1940
+		start_year = 2021
 		
 		folder = {
 			name = artillery_folder
@@ -187,17 +187,17 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				date > "1940.1.6"
+				date > "2021.1.6"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1941.1.1"
+				date > "2022.1.1"
 			}
 			
 			modifier = {
 				factor = 5
-				date > "1942.1.1"
+				date > "2023.1.1"
 			}
 		}
 	}
@@ -218,7 +218,7 @@ technologies = {
 		
 		research_cost = 1
 
-		start_year = 1941
+		start_year = 2022
 		
 		folder = {
 			name = artillery_folder
@@ -234,12 +234,12 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				date > "1941.1.6"
+				date > "2022.1.6"
 			}
 			
 			modifier = {
 				factor = 5
-				date > "1942.1.1"
+				date > "2023.1.1"
 			}
 		}
 	}
@@ -264,7 +264,7 @@ technologies = {
 		
 		research_cost = 2
 
-		start_year = 1942
+		start_year = 2023
 		
 		folder = {
 			name = artillery_folder
@@ -280,17 +280,17 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				date > "1941.1.9"
+				date > "2022.1.9"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1942.1.1"
+				date > "2023.1.1"
 			}
 			
 			modifier = {
 				factor = 5
-				date > "1942.1.6"
+				date > "2023.1.6"
 			}
 		}
 	}
@@ -306,7 +306,7 @@ technologies = {
 		
 		research_cost = 1
 
-		start_year = 1943
+		start_year = 2024
 		
 		folder = {
 			name = artillery_folder
@@ -322,7 +322,7 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				date > "1943.1.6"
+				date > "2024.1.6"
 			}
 			
 			modifier = {
@@ -375,7 +375,7 @@ technologies = {
 		
 		research_cost = 2
 
-		start_year = 1940
+		start_year = 2021
 		
 		folder = {
 			name = artillery_folder
@@ -415,7 +415,7 @@ technologies = {
 		
 		research_cost = 1
 
-		start_year = 1941
+		start_year = 2022
 		
 		folder = {
 			name = artillery_folder
@@ -455,7 +455,7 @@ technologies = {
 		
 		research_cost = 1
 
-		start_year = 1942
+		start_year = 2023
 		
 		folder = {
 			name = artillery_folder
@@ -494,7 +494,7 @@ technologies = {
 
 		research_cost = 1
 
-		start_year = 1943
+		start_year = 2024
 		
 		folder = {
 			name = artillery_folder
@@ -533,7 +533,7 @@ technologies = {
 		
 		research_cost = 1.5
 
-		start_year = 1936
+		start_year = 2017
 		
 		folder = {
 			name = artillery_folder
@@ -558,17 +558,17 @@ technologies = {
 			}
 			modifier = {
 				factor = 2
-				date > "1937.1.1"
+				date > "2018.1.1"
 			}
 			
 			modifier = {
 				factor = 5
-				date > "1938.1.1"
+				date > "2019.1.1"
 			}
 			
 			modifier = {
 				factor = 5
-				date > "1939.1.1"
+				date > "2020.1.1"
 			}
 		}
 		
@@ -595,7 +595,7 @@ technologies = {
 		
 		research_cost = 1
 
-		start_year = 1939
+		start_year = 2020
 		
 		folder = {
 			name = artillery_folder
@@ -633,7 +633,7 @@ technologies = {
 		
 		research_cost = 1
 
-		start_year = 1940
+		start_year = 2021
 		
 		folder = {
 			name = artillery_folder
@@ -667,7 +667,7 @@ technologies = {
 		
 		research_cost = 1
 
-		start_year = 1941
+		start_year = 2022
 		
 		folder = {
 			name = artillery_folder
@@ -701,7 +701,7 @@ technologies = {
 		
 		research_cost = 1
 
-		start_year = 1942
+		start_year = 2023
 		
 		folder = {
 			name = artillery_folder
@@ -734,7 +734,7 @@ technologies = {
 		
 		research_cost = 1
 
-		start_year = 1943
+		start_year = 2024
 		
 		folder = {
 			name = artillery_folder
@@ -763,7 +763,7 @@ technologies = {
 		
 		research_cost = 1.5
 
-		start_year = 1936
+		start_year = 2017
 		
 		folder = {
 			name = artillery_folder
@@ -788,17 +788,17 @@ technologies = {
 			}
 			modifier = {
 				factor = 2
-				date > "1937.1.1"
+				date > "2018.1.1"
 			}
 			
 			modifier = {
 				factor = 5
-				date > "1938.1.1"
+				date > "2019.1.1"
 			}
 			
 			modifier = {
 				factor = 5
-				date > "1939.1.1"
+				date > "2020.1.1"
 			}
 			modifier = {
 				factor = 10
@@ -837,7 +837,7 @@ technologies = {
 		
 		research_cost = 1
 
-		start_year = 1939
+		start_year = 2020
 		
 		folder = {
 			name = artillery_folder
@@ -859,12 +859,12 @@ technologies = {
 			}
 			modifier = {
 				factor = 2
-				date > "1939.1.6"
+				date > "2020.1.6"
 			}
 			
 			modifier = {
 				factor = 5
-				date > "1940.1.1"
+				date > "2021.1.1"
 			}
 		}
 		
@@ -896,7 +896,7 @@ technologies = {
 		
 		research_cost = 1
 
-		start_year = 1940
+		start_year = 2021
 		
 		folder = {
 			name = artillery_folder
@@ -908,17 +908,17 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				date > "1939.1.9"
+				date > "2020.1.9"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1940.1.1"
+				date > "2021.1.1"
 			}
 			
 			modifier = {
 				factor = 5
-				date > "1940.1.6"
+				date > "2021.1.6"
 			}
 			modifier = {
 				factor = 10
@@ -957,7 +957,7 @@ technologies = {
 		
 		research_cost = 1
 
-		start_year = 1941
+		start_year = 2022
 		
 		folder = {
 			name = artillery_folder
@@ -969,17 +969,17 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				date > "1941.1.6"
+				date > "2022.1.6"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1942.1.1"
+				date > "2023.1.1"
 			}
 			
 			modifier = {
 				factor = 5
-				date > "1943.1.1"
+				date > "2024.1.1"
 			}
 			modifier = {
 				factor = 10
@@ -1018,7 +1018,7 @@ technologies = {
 		
 		research_cost = 1
 
-		start_year = 1942
+		start_year = 2023
 		
 		folder = {
 			name = artillery_folder
@@ -1030,12 +1030,12 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				date > "1942.1.6"
+				date > "2023.1.6"
 			}
 			
 			modifier = {
 				factor = 5
-				date > "1943.1.1"
+				date > "2024.1.1"
 			}
 			modifier = {
 				factor = 10
@@ -1073,7 +1073,7 @@ technologies = {
 		
 		research_cost = 1
 
-		start_year = 1943
+		start_year = 2024
 		
 		folder = {
 			name = artillery_folder
@@ -1085,17 +1085,17 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				date > "1942.1.9"
+				date > "2023.1.9"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1943.1.1"
+				date > "2024.1.1"
 			}
 			
 			modifier = {
 				factor = 5
-				date > "1943.1.6"
+				date > "2024.1.6"
 			}
 			modifier = {
 				factor = 10
