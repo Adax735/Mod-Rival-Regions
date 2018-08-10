@@ -1,4 +1,4 @@
-1technologies = {
+technologies = {
 	
 	early_fighter = {
 

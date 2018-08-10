@@ -123,7 +123,7 @@ ideas = {
 
 #	country = {
 #
-#		zmiana_ustroju = {
+#		chaos_w_rzadzie = {
 #
 #			allowed = {
 #				always = no
