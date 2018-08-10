@@ -4,6 +4,20 @@ ideas = {
 # PRAWA I RZĄD #
 ################
 
+	country = {
+
+		chaos_w_rzadzie = {
+
+			picture = generic_disjointed_gov
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+		}
+	}
+
 	ustroje = {
 		law = yes
 		
@@ -13,8 +27,19 @@ ideas = {
 			removal_cost = -1
 
 			available = {
-				has_war = no
+				
+				NOT = { has_idea = chaos_w_rzadzie }
+				
+				OR = {
+					has_war = no
+					has_idea = system_partii_dominujacej
+				}
 			}
+
+			ai_will_do = {
+   				
+   				factor = 1
+   			}
 
 			modifier = {
 				stability_factor = -0.15
@@ -23,6 +48,14 @@ ideas = {
 				production_factory_max_efficiency_factor = 0.25
 				production_speed_buildings_factor = 0.25
 				research_time_factor = -0.15
+				conversion_cost_mil_to_civ_factor = -0.1
+			}
+
+			on_add = {
+				add_timed_idea = {
+	    			idea = chaos_w_rzadzie
+	    			days = 30
+				}
 			}
 
 			default = yes
@@ -32,15 +65,29 @@ ideas = {
 
 		dyktatura = {
 
-			cost = 150
+			cost = 125
 			removal_cost = -1
 
 			available = {
 				OR = {
-					has_war = yes
-					NOT = { has_idea = republika_prezydencka }
+
+					AND = {
+						has_war = yes
+						NOT = { has_idea = chaos_w_rzadzie }
+					}
+					
+					AND = {
+						NOT = { has_idea = chaos_w_rzadzie }
+						NOT = { has_idea = republika_prezydencka }
+						NOT = { has_idea = system_partii_dominujacej }
+					}
 				}
 			}
+
+			ai_will_do = {
+   				
+   				factor = 1
+   			}
 			
 			modifier = {
 				stability_factor = 0.30
@@ -52,6 +99,13 @@ ideas = {
 				training_time_factor = -0.1
 			}
 
+			on_add = {
+				add_timed_idea = {
+	    			idea = chaos_w_rzadzie
+	    			days = 30
+				}
+			}
+
 			cancel_if_invalid = no
 		}
 
@@ -61,8 +115,18 @@ ideas = {
 			removal_cost = -1
 
 			available = {
-				NOT = { has_idea = republika_prezydencka }
+				
+				AND = {
+					NOT = { has_idea = chaos_w_rzadzie }
+					NOT = { has_idea = republika_prezydencka }
+					NOT = { has_idea = system_partii_dominujacej }
+				}
 			}
+
+			ai_will_do = {
+   				
+   				factor = 1
+   			}
 
 			modifier = {
 				stability_factor = 0.25
@@ -72,6 +136,14 @@ ideas = {
 				production_speed_buildings_factor = -0.05
 				research_time_factor = 0.05
 				training_time_factor = -0.05
+				conversion_cost_civ_to_mil_factor = -0.05
+			}
+
+			on_add = {
+				add_timed_idea = {
+	    			idea = chaos_w_rzadzie
+	    			days = 30
+				}
 			}
 
 			cancel_if_invalid = no
@@ -79,12 +151,22 @@ ideas = {
 
 		monarchia_konstytucyjna = {
 
-			cost = 100
+			cost = 125
 			removal_cost = -1
 
 			available = {
-				NOT = { has_idea = republika_prezydencka }
+				
+				AND = {
+					NOT = { has_idea = chaos_w_rzadzie }
+					NOT = { has_idea = republika_prezydencka }
+					NOT = { has_idea = system_partii_dominujacej }
+				}
 			}
+
+			ai_will_do = {
+   				
+   				factor = 1
+   			}
 
 			modifier = {
 				stability_factor = 0.25
@@ -93,7 +175,15 @@ ideas = {
 				production_factory_max_efficiency_factor = -0.05
 				production_speed_buildings_factor = 0.1
 				research_time_factor = 0
+				conversion_cost_civ_to_mil_factor = -0.1
 				cavalry_attack_factor = 0.1
+			}
+
+			on_add = {
+				add_timed_idea = {
+	    			idea = chaos_w_rzadzie
+	    			days = 30
+				}
 			}
 
 			cancel_if_invalid = no
@@ -101,36 +191,44 @@ ideas = {
 
 		system_partii_dominujacej = {
 
-			cost = 100
+			cost = 150
 			removal_cost = -1
 
 			available = {
-				NOT = { has_idea = republika_prezydencka }
+				
+				NOT = { has_idea = chaos_w_rzadzie }
+
+				OR = {
+					has_war = no
+					has_idea = republika_prezydencka
+				}
 			}
+
+			ai_will_do = {
+   				
+   				factor = 1
+   			}
 
 			modifier = {
-				stability_factor = 0.2
-				political_power_factor = -0.1
-				conscription_factor = 0.05
-				production_factory_max_efficiency_factor = -0.1
-				production_speed_buildings_factor = 0
+				stability_factor = -0.05
+				political_power_factor = 0.15
+				conscription_factor = 0
+				production_factory_max_efficiency_factor = 0.2
+				production_speed_buildings_factor = 0.2
 				research_time_factor = -0.1
+				conversion_cost_mil_to_civ_factor = -0.05
 			}
 
+			on_add = {
+				add_timed_idea = {
+	    			idea = chaos_w_rzadzie
+	    			days = 30
+				}
+			}
+			
 			cancel_if_invalid = no
 		}
 	}
-
-#	country = {
-#
-#		chaos_w_rzadzie = {
-#
-#			allowed = {
-#				always = no
-#			}
-#
-#		}
-#	}
 	
 #######################
 # BADANIA I PRODUKCJA #
