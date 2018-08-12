@@ -1,0 +1,27 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_idea_republika_prezydencka"
+		texturefile = "gfx/interface/ideas/republika_prezydencka.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dyktatura"
+		texturefile = "gfx/interface/ideas/dyktatura.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_system_jednopartyjny"
+		texturefile = "gfx/interface/ideas/system_jednopartyjny.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_monarchia_konstytucyjna"
+		texturefile = "gfx/interface/ideas/monarchia_konstytucyjna.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_system_partii_dominujacej"
+		texturefile = "gfx/interface/ideas/system_partii_dominujacej.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_null"
+		texturefile = "gfx/interface/ideas/null.dds"
+	}
+}
