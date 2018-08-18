@@ -24,4 +24,56 @@ spriteTypes = {
 		name = "GFX_idea_null"
 		texturefile = "gfx/interface/ideas/null.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_otwarte_granice"
+		texturefile = "gfx/interface/ideas/otwarte_granice.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_otwarte_i_meldunki"
+		texturefile = "gfx/interface/ideas/otwarte_i_meldunki.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_zamkniete_granice"
+		texturefile = "gfx/interface/ideas/zamkniete_granice.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_zamkniete_i_meldunki"
+		texturefile = "gfx/interface/ideas/zamkniete_i_meldunki.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_pozwol_na_prace_bez_zezwolenia"
+		texturefile = "gfx/interface/ideas/pozwol_na_prace_bez_zezwolenia.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_zakaz_pracy_bez_zezwolenia"
+		texturefile = "gfx/interface/ideas/zakaz_pracy_bez_zezwolenia.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_brak_podatkow"
+		texturefile = "gfx/interface/ideas/brak_podatkow.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_niskie_podatki"
+		texturefile = "gfx/interface/ideas/niskie_podatki.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_srednie_podatki"
+		texturefile = "gfx/interface/ideas/srednie_podatki.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_wysokie_podatki"
+		texturefile = "gfx/interface/ideas/wysokie_podatki.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_male_autonomie"
+		texturefile = "gfx/interface/ideas/male_autonomie.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_duze_autonomie"
+		texturefile = "gfx/interface/ideas/duze_autonomie.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_brak_autonomii"
+		texturefile = "gfx/interface/ideas/brak_autonomii.dds"
+	}
 }

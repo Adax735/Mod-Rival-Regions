@@ -12,232 +12,6 @@ ideas = {
 
 
 
-	country = {
-
-		chaos_w_rzadzie = {
-
-			picture = generic_disjointed_gov
-
-			allowed = {
-				always = no
-			}
-
-			removal_cost = -1
-		}
-	}
-
-	ustroje = {
-		law = yes
-		
-		republika_prezydencka = {
-
-			cost = 150
-			removal_cost = -1
-
-			available = {
-				
-				NOT = { has_idea = chaos_w_rzadzie }
-				
-				OR = {
-					has_war = no
-					has_idea = system_partii_dominujacej
-				}
-			}
-
-			ai_will_do = {
-   				
-   				factor = 1
-   			}
-
-			modifier = {
-				stability_factor = -0.15
-				political_power_factor = 0.20
-				conscription_factor = -0.1
-				production_factory_max_efficiency_factor = 0.25
-				production_speed_buildings_factor = 0.25
-				research_time_factor = -0.15
-				conversion_cost_mil_to_civ_factor = -0.1
-			}
-
-			on_add = {
-				add_timed_idea = {
-	    			idea = chaos_w_rzadzie
-	    			days = 30
-				}
-			}
-
-			default = yes
-
-			cancel_if_invalid = no
-		}
-
-		dyktatura = {
-
-			cost = 125
-			removal_cost = -1
-
-			available = {
-				OR = {
-
-					AND = {
-						has_war = yes
-						NOT = { has_idea = chaos_w_rzadzie }
-					}
-					
-					AND = {
-						NOT = { has_idea = chaos_w_rzadzie }
-						NOT = { has_idea = republika_prezydencka }
-						NOT = { has_idea = system_partii_dominujacej }
-					}
-				}
-			}
-
-			ai_will_do = {
-   				
-   				factor = 1
-   			}
-			
-			modifier = {
-				stability_factor = 0.30
-				political_power_factor = -0.2
-				conscription_factor = 0.25
-				production_factory_max_efficiency_factor = -0.25
-				production_speed_buildings_factor = -0.2
-				research_time_factor = 0.1
-				training_time_factor = -0.1
-			}
-
-			on_add = {
-				add_timed_idea = {
-	    			idea = chaos_w_rzadzie
-	    			days = 30
-				}
-			}
-
-			cancel_if_invalid = no
-		}
-
-		system_jednopartyjny = {
-
-			cost = 125
-			removal_cost = -1
-
-			available = {
-				
-				AND = {
-					NOT = { has_idea = chaos_w_rzadzie }
-					NOT = { has_idea = republika_prezydencka }
-					NOT = { has_idea = system_partii_dominujacej }
-				}
-			}
-
-			ai_will_do = {
-   				
-   				factor = 1
-   			}
-
-			modifier = {
-				stability_factor = 0.25
-				political_power_factor = -0.15
-				conscription_factor = 0.15
-				production_factory_max_efficiency_factor = -0.15
-				production_speed_buildings_factor = -0.05
-				research_time_factor = 0.05
-				training_time_factor = -0.05
-				conversion_cost_civ_to_mil_factor = -0.05
-			}
-
-			on_add = {
-				add_timed_idea = {
-	    			idea = chaos_w_rzadzie
-	    			days = 30
-				}
-			}
-
-			cancel_if_invalid = no
-		}
-
-		monarchia_konstytucyjna = {
-
-			cost = 125
-			removal_cost = -1
-
-			available = {
-				
-				AND = {
-					NOT = { has_idea = chaos_w_rzadzie }
-					NOT = { has_idea = republika_prezydencka }
-					NOT = { has_idea = system_partii_dominujacej }
-				}
-			}
-
-			ai_will_do = {
-   				
-   				factor = 1
-   			}
-
-			modifier = {
-				stability_factor = 0.25
-				political_power_factor = -0.1
-				conscription_factor = 0.05
-				production_factory_max_efficiency_factor = -0.05
-				production_speed_buildings_factor = 0.1
-				research_time_factor = 0
-				conversion_cost_civ_to_mil_factor = -0.1
-				cavalry_attack_factor = 0.1
-			}
-
-			on_add = {
-				add_timed_idea = {
-	    			idea = chaos_w_rzadzie
-	    			days = 30
-				}
-			}
-
-			cancel_if_invalid = no
-		}
-
-		system_partii_dominujacej = {
-
-			cost = 150
-			removal_cost = -1
-
-			available = {
-				
-				NOT = { has_idea = chaos_w_rzadzie }
-
-				OR = {
-					has_war = no
-					has_idea = republika_prezydencka
-				}
-			}
-
-			ai_will_do = {
-   				
-   				factor = 1
-   			}
-
-			modifier = {
-				stability_factor = -0.05
-				political_power_factor = 0.15
-				conscription_factor = 0
-				production_factory_max_efficiency_factor = 0.2
-				production_speed_buildings_factor = 0.2
-				research_time_factor = -0.1
-				conversion_cost_mil_to_civ_factor = -0.05
-			}
-
-			on_add = {
-				add_timed_idea = {
-	    			idea = chaos_w_rzadzie
-	    			days = 30
-				}
-			}
-			
-			cancel_if_invalid = no
-		}
-	}
-
 	political_advisor = {
 
 		generic_captain_of_industry = {
@@ -686,6 +460,497 @@ ideas = {
 			}
 			
 			traits = { air_air_combat_training_2 }			
+		}
+	}
+
+	country = {
+
+		chaos_w_rzadzie = {
+
+			picture = generic_disjointed_gov
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+		}
+	}
+
+
+
+               ######                              
+ #####  #####  #     # #####    ##   #    #   ##   
+ #    # #    # #     # #    #  #  #  #    #  #  #  
+ #    # #    # ######  #    # #    # #    # #    # 
+ #####  #####  #       #####  ###### # ## # ###### 
+ #   #  #   #  #       #   #  #    # ##  ## #    # 
+ #    # #    # #       #    # #    # #    # #    # 
+                                                   
+
+
+	ustroje = {
+		law = yes
+		
+		republika_prezydencka = {
+
+			cost = 150
+			removal_cost = -1
+
+			available = {
+				
+				NOT = { has_idea = chaos_w_rzadzie }
+				
+				OR = {
+					has_war = no
+					has_idea = system_partii_dominujacej
+				}
+			}
+
+			ai_will_do = {
+   				
+   				factor = 1
+   			}
+
+			modifier = {
+				stability_factor = -0.15
+				political_power_factor = 0.20
+				conscription_factor = -0.1
+				production_factory_max_efficiency_factor = 0.25
+				production_speed_buildings_factor = 0.25
+				research_time_factor = -0.15
+				conversion_cost_mil_to_civ_factor = -0.1
+			}
+
+			on_add = {
+				add_timed_idea = {
+	    			idea = chaos_w_rzadzie
+	    			days = 30
+				}
+			}
+
+			default = yes
+
+			cancel_if_invalid = no
+		}
+
+		system_partii_dominujacej = {
+
+			cost = 150
+			removal_cost = -1
+
+			available = {
+				
+				NOT = { has_idea = chaos_w_rzadzie }
+
+				OR = {
+					has_war = no
+					has_idea = republika_prezydencka
+				}
+			}
+
+			ai_will_do = {
+   				
+   				factor = 1
+   			}
+
+			modifier = {
+				stability_factor = -0.05
+				political_power_factor = 0.15
+				conscription_factor = 0
+				production_factory_max_efficiency_factor = 0.2
+				production_speed_buildings_factor = 0.2
+				research_time_factor = -0.1
+				conversion_cost_mil_to_civ_factor = -0.05
+			}
+
+			on_add = {
+				add_timed_idea = {
+	    			idea = chaos_w_rzadzie
+	    			days = 30
+				}
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		dyktatura = {
+
+			cost = 125
+			removal_cost = -1
+
+			available = {
+				OR = {
+
+					AND = {
+						has_war = yes
+						NOT = { has_idea = chaos_w_rzadzie }
+					}
+					
+					AND = {
+						NOT = { has_idea = chaos_w_rzadzie }
+						NOT = { has_idea = republika_prezydencka }
+						NOT = { has_idea = system_partii_dominujacej }
+					}
+				}
+			}
+
+			ai_will_do = {
+   				
+   				factor = 1
+   			}
+			
+			modifier = {
+				stability_factor = 0.30
+				political_power_factor = -0.2
+				conscription_factor = 0.25
+				production_factory_max_efficiency_factor = -0.25
+				production_speed_buildings_factor = -0.2
+				research_time_factor = 0.1
+				training_time_factor = -0.1
+			}
+
+			on_add = {
+				add_timed_idea = {
+	    			idea = chaos_w_rzadzie
+	    			days = 30
+				}
+			}
+
+			cancel_if_invalid = no
+		}
+
+		system_jednopartyjny = {
+
+			cost = 125
+			removal_cost = -1
+
+			available = {
+				
+				AND = {
+					NOT = { has_idea = chaos_w_rzadzie }
+					NOT = { has_idea = republika_prezydencka }
+					NOT = { has_idea = system_partii_dominujacej }
+				}
+			}
+
+			ai_will_do = {
+   				
+   				factor = 1
+   			}
+
+			modifier = {
+				stability_factor = 0.25
+				political_power_factor = -0.15
+				conscription_factor = 0.15
+				production_factory_max_efficiency_factor = -0.15
+				production_speed_buildings_factor = -0.05
+				research_time_factor = 0.05
+				training_time_factor = -0.05
+				conversion_cost_civ_to_mil_factor = -0.05
+			}
+
+			on_add = {
+				add_timed_idea = {
+	    			idea = chaos_w_rzadzie
+	    			days = 30
+				}
+			}
+
+			cancel_if_invalid = no
+		}
+
+		monarchia_konstytucyjna = {
+
+			cost = 125
+			removal_cost = -1
+
+			available = {
+				
+				AND = {
+					NOT = { has_idea = chaos_w_rzadzie }
+					NOT = { has_idea = republika_prezydencka }
+					NOT = { has_idea = system_partii_dominujacej }
+				}
+			}
+
+			ai_will_do = {
+   				
+   				factor = 1
+   			}
+
+			modifier = {
+				stability_factor = 0.25
+				political_power_factor = -0.1
+				conscription_factor = 0.05
+				production_factory_max_efficiency_factor = -0.05
+				production_speed_buildings_factor = 0.1
+				research_time_factor = 0
+				conversion_cost_civ_to_mil_factor = -0.1
+				cavalry_attack_factor = 0.1
+			}
+
+			on_add = {
+				add_timed_idea = {
+	    			idea = chaos_w_rzadzie
+	    			days = 30
+				}
+			}
+
+			cancel_if_invalid = no
+		}
+	}
+
+	ideologie = {
+		law = yes
+
+		placeholder = {
+
+			cost = 150
+			removal_cost = -1
+
+			available = {
+				always = yes
+			}
+
+			cancel_if_invalid = no
+		}
+	}
+
+	granice_i_meldunki = {
+		law = yes
+
+		otwarte_granice = {
+
+			cost = 100
+			removal_cost = -1
+
+			available = {
+				always = yes
+			}
+
+			modifier = {
+				enemy_partisan_effect = 0.2
+				conscription_factor = 0.1
+			}
+
+			cancel_if_invalid = no
+		}
+
+		otwarte_i_meldunki = {
+
+			cost = 100
+			removal_cost = -1
+
+			available = {
+				always = yes
+			}
+
+			modifier = {
+				enemy_partisan_effect = 0.1
+				conscription_factor = 0.05
+			}
+
+			cancel_if_invalid = no
+		}
+
+		zamkniete_granice = {
+
+			cost = 100
+			removal_cost = -1
+
+			available = {
+				always = yes
+			}
+
+			modifier = {
+				enemy_partisan_effect = -0.1
+				conscription_factor = -0.05
+			}
+
+			default = yes
+
+			cancel_if_invalid = no
+		}
+
+		zamkniete_i_meldunki = {
+
+			cost = 100
+			removal_cost = -1
+
+			available = {
+				always = yes
+			}
+
+			modifier = {
+				enemy_partisan_effect = -0.2
+				conscription_factor = -0.1
+			}
+
+			cancel_if_invalid = no
+		}
+	}
+
+	pozwolenia_na_prace = {
+		law = yes
+
+		pozwol_na_prace_bez_zezwolenia = {
+
+			cost = 100
+			removal_cost = -1
+
+			available = {
+				always = yes
+			}
+
+			modifier = {
+				local_resources_factor = 0.1
+				industrial_capacity_factory = 0.1
+				political_power_factor = -0.15
+			}
+
+			cancel_if_invalid = no
+		}
+
+		zakaz_pracy_bez_zezwolenia = {
+
+			cost = 100
+			removal_cost = -1
+
+			available = {
+				always = yes
+			}
+
+			modifier = {
+				local_resources_factor = -0.1
+				industrial_capacity_factory = -0.1
+				political_power_factor = 0.15
+			}
+
+			default = yes
+
+			cancel_if_invalid = no
+		}
+	}
+
+	podatki = {
+		law = yes
+
+		brak_podatkow = {
+
+			cost = 100
+			removal_cost = -1
+
+			available = {
+				always = yes
+			}
+
+			modifier = {
+				stability_factor = 0.05
+				consumer_goods_factor = 0.05
+			}
+
+			cancel_if_invalid = no
+		}
+
+		niskie_podatki = {
+
+			cost = 100
+			removal_cost = -1
+
+			available = {
+				always = yes
+			}
+
+			default = yes
+
+			cancel_if_invalid = no
+		}
+
+		srednie_podatki = {
+
+			cost = 100
+			removal_cost = -1
+
+			available = {
+				always = yes
+			}
+
+			modifier = {
+				stability_factor = -0.05
+				consumer_goods_factor = -0.05
+			}
+
+			cancel_if_invalid = no
+		}
+
+		wysokie_podatki = {
+
+			cost = 100
+			removal_cost = -1
+
+			available = {
+				always = yes
+			}
+
+			modifier = {
+				stability_factor = -0.1
+				consumer_goods_factor = -0.075
+			}
+
+			cancel_if_invalid = no
+		}
+	}
+
+	autonomie = {
+		law = yes
+
+		male_autonomie = {
+
+			cost = 100
+			removal_cost = -1
+
+			available = {
+				always = yes
+			}
+
+			modifier = {
+				production_speed_buildings_factor = 0.1
+				stability_weekly = -0.005
+			}
+
+			cancel_if_invalid = no
+		}
+
+		duze_autonomie = {
+
+			cost = 100
+			removal_cost = -1
+
+			available = {
+				always = yes
+			}
+
+			default = yes
+
+			cancel_if_invalid = no
+		}
+
+		brak_autonomii = {
+
+			cost = 100
+			removal_cost = -1
+
+			available = {
+				always = yes
+			}
+
+			modifier = {
+				production_speed_buildings_factor = -0.1
+				stability_weekly = 0.005
+			}
+
+			cancel_if_invalid = no
 		}
 	}
 }
