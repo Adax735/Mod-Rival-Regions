@@ -10,6 +10,7 @@ state=
 		owner = JEB
 		add_core_of = JEB
 		buildings = {
+		    arms_factory = 4
 			infrastructure = 3
 			12759 = {
 				naval_base = 1

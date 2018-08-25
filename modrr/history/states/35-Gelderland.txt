@@ -10,7 +10,6 @@ state={
 		owner = NSP
 		buildings = {
 			infrastructure = 7
-			industrial_complex = 5
 		}
 		victory_points = {
 			6496 5

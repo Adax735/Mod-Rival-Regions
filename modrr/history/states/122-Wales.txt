@@ -15,10 +15,7 @@ state= {
 		owner = OWK
 		victory_points = { 377 5 }
 		buildings = {
-			infrastructure = 5
-			industrial_complex = 1
-			377 = {
-				naval_base = 3
+			infrastructure = 5			naval_base = 3
 			}
 		}
 		add_core_of = OWK

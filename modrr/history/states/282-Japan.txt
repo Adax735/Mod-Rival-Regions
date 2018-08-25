@@ -12,12 +12,9 @@ state={
 
 	history={
 		owner = AZM
-		add_core_of = AZM
 		buildings = {
 			infrastructure = 8
 			air_base = 6
-			industrial_complex = 5
-			arms_factory = 2
 			dockyard = 4
 			9998 = {
 				naval_base = 6
