@@ -14,7 +14,6 @@ state=
 		owner = FRP
 		buildings = {
 			infrastructure = 8
-			industrial_complex = 2
 			anti_air_building = 1
 			424 =
 			{

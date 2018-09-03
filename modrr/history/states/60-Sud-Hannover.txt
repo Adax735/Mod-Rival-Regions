@@ -15,8 +15,7 @@ state={
 		owner = NSP
 		victory_points = { 6524 5 }
 		buildings = {
-			infrastructure = 6
-			industrial_complex = 1
+			infrastructure = 6s
 		}
 		add_core_of = NSP
 		1939.1.1 = {
