@@ -50,7 +50,7 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Blady"
+	name = "Kamil Blady Kopka"
 	desc = ""
 	picture = "thorodynson.dds"
 	expire = "1965.1.1"

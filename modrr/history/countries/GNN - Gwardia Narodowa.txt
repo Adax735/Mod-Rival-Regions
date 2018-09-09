@@ -50,9 +50,9 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Arm Tig3r"
+	name = "Mikesz"
 	desc = ""
-	picture = "TIg3r.dds"
+	picture = "Mikesz.tga"
 	expire = "1965.1.1"
 	ideology = centrism
 	traits = {
