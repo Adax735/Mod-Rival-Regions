@@ -10,7 +10,6 @@ state={
 		owner = AZM
 		buildings = {
 			infrastructure = 5
-			industrial_complex = 2
 			air_base = 3
 			10068 = {
 				naval_base = 2

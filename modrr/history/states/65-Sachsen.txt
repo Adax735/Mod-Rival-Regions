@@ -13,8 +13,7 @@ state={
 	history={
 		owner = KRR
 		buildings = {
-			infrastructure = 7
-			arms_factory = 2
+			infrastructure = 7s
 			industrial_complex = 7
 		}
 		victory_points = {
