@@ -1,0 +1,560 @@
+focus_tree = {
+	id = onr_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = ONR
+		}
+	}
+
+	default = no
+
+	focus = {
+		id = ONR_poczatek
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 10
+		y = 0
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+
+	#wybory lidera
+
+	focus = {
+		id = ONR_wybory_lidera
+		icon = GFX_goal_generic_construct_infrastructure
+		prerequisite = { focus = ONR_poczatek }
+		x = 2
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+
+	#ślązak
+
+	focus = {
+		id = ONR_slazak
+		icon = GFX_goal_generic_construct_infrastructure
+		prerequisite = { focus = ONR_wybory_lidera }
+		mutually_exclusive = { focus = ONR_zbigniew }
+		mutually_exclusive = { focus = ONR_zniwarz }
+		x = 0
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = ONR_zmiany_w_armii
+		icon = GFX_goal_generic_construct_infrastructure
+		prerequisite = { focus = ONR_slazak }
+		x = 0
+		y = 3
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = ONR_roszczenia_do_slaska
+		icon = GFX_goal_generic_construct_infrastructure
+		prerequisite = { focus = ONR_zmiany_w_armii }
+		x = 0
+		y = 4
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = ONR_narodowe_bojowki
+		icon = GFX_goal_generic_construct_infrastructure
+		prerequisite = { focus = ONR_roszczenia_do_slaska }
+		x = 0
+		y = 5
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = ONR_rozbudowa_fabryk
+		icon = GFX_goal_generic_construct_infrastructure
+		prerequisite = { focus = ONR_narodowe_bojowki }
+		x = 0
+		y = 6
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = ONR_neopoganizm
+		icon = GFX_goal_generic_construct_infrastructure
+		prerequisite = { focus = ONR_rozbudowa_fabryk }
+		x = 0
+		y = 7
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+
+	#zbigniew
+
+	focus = {
+		id = ONR_zbigniew
+		icon = GFX_goal_generic_construct_infrastructure
+		prerequisite = { focus = ONR_wybory_lidera }
+		mutually_exclusive = { focus = ONR_zniwarz }
+		mutually_exclusive = { focus = ONR_slazak }
+		x = 2
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = ONR_korpusy_dyplomatyczne
+		icon = GFX_goal_generic_construct_infrastructure
+		prerequisite = { focus = ONR_zbigniew }
+		x = 2
+		y = 3
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = ONR_zbigniew_pierwszym_polskim_biskupem
+		icon = GFX_goal_generic_construct_infrastructure
+		prerequisite = { focus = ONR_korpusy_dyplomatyczne }
+		x = 2
+		y = 4
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = ONR_zbigniew_arcybiskupem
+		icon = GFX_goal_generic_construct_infrastructure
+		prerequisite = { focus = ONR_zbigniew_pierwszym_polskim_biskupem }
+		x = 2
+		y = 5
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = ONR_zbigniew_przymasem_polski
+		icon = GFX_goal_generic_construct_infrastructure
+		prerequisite = { focus = ONR_zbigniew_arcybiskupem }
+		x = 2
+		y = 6
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = ONR_zbigniew_papiezem
+		icon = GFX_goal_generic_construct_infrastructure
+		prerequisite = { focus = ONR_zbigniew_przymasem_polski }
+		x = 2
+		y = 7
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+
+	#żniwiarz
+
+	focus = {
+		id = ONR_zniwarz
+		icon = GFX_goal_generic_construct_infrastructure
+		prerequisite = { focus = ONR_wybory_lidera }
+		mutually_exclusive = { focus = ONR_zbigniew }
+		mutually_exclusive = { focus = ONR_slazak }
+		x = 4
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = ONR_nowy_lad_i_dyscyplina
+		icon = GFX_goal_generic_construct_infrastructure
+		prerequisite = { focus = ONR_zniwarz }
+		x = 4
+		y = 3
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = ONR_ostry_antykomunizm
+		icon = GFX_goal_generic_construct_infrastructure
+		prerequisite = { focus = ONR_nowy_lad_i_dyscyplina }
+		x = 4
+		y = 4
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = ONR_roszczenia_do_pomorza
+		icon = GFX_goal_generic_construct_infrastructure
+		prerequisite = { focus = ONR_ostry_antykomunizm }
+		x = 4
+		y = 5
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = ONR_fuzje_z_mniejszymi_partiami
+		icon = GFX_goal_generic_construct_infrastructure
+		prerequisite = { focus = ONR_roszczenia_do_pomorza }
+		x = 4
+		y = 6
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = ONR_batalion_onr
+		icon = GFX_goal_generic_construct_infrastructure
+		prerequisite = { focus = ONR_fuzje_z_mniejszymi_partiami }
+		x = 4
+		y = 7
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = ONR_nacjonalistyczny_rewanzyzm
+		icon = GFX_goal_generic_construct_infrastructure
+		prerequisite = { focus = ONR_batalion_onr focus = ONR_zbigniew_papiezem focus = ONR_neopoganizm }
+		x = 2
+		y = 8
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+
+	#rozwój partii
+
+	focus = {
+		id = ONR_rozwoj_partii
+		icon = GFX_goal_generic_construct_infrastructure
+		prerequisite = { focus = ONR_poczatek }
+		x = 7
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = ONR_rozwoj_sily
+		icon = GFX_goal_generic_construct_infrastructure
+		prerequisite = { focus = ONR_rozwoj_partii }
+		x = 6
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = ONR_rozwoj_wytrzymalosci
+		icon = GFX_goal_generic_construct_infrastructure
+		prerequisite = { focus = ONR_rozwoj_partii }
+		x = 8
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+
+	#reforma wojska
+
+	focus = {
+		id = ONR_reforma_wojskowa
+		icon = GFX_goal_generic_construct_infrastructure
+		prerequisite = { focus = ONR_poczatek }
+		x = 12
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = ONR_modernizacja_wyposazenia
+		icon = GFX_goal_generic_construct_infrastructure
+		prerequisite = { focus = ONR_reforma_wojskowa }
+		x = 13
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = ONR_modernizacja_wyposazenia_ii
+		icon = GFX_goal_generic_construct_infrastructure
+		prerequisite = { focus = ONR_modernizacja_wyposazenia }
+		x = 13
+		y = 3
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = ONR_modernizacja_wyposazenia_iii
+		icon = GFX_goal_generic_construct_infrastructure
+		prerequisite = { focus = ONR_modernizacja_wyposazenia_ii }
+		prerequisite = { focus = ONR_mechanizacja_piechoty_ii }
+		x = 13
+		y = 5
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = ONR_motoryzacja_piechoty
+		icon = GFX_goal_generic_construct_infrastructure
+		prerequisite = { focus = ONR_reforma_wojskowa }
+		x = 11
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = ONR_mechanizacja_piechoty
+		icon = GFX_goal_generic_construct_infrastructure
+		prerequisite = { focus = ONR_motoryzacja_piechoty }
+		x = 11
+		y = 3
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = ONR_mechanizacja_piechoty_ii
+		icon = GFX_goal_generic_construct_infrastructure
+		prerequisite = { focus = ONR_mechanizacja_piechoty }
+		x = 12
+		y = 4
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = ONR_modernizacja_czolgow
+		icon = GFX_goal_generic_construct_infrastructure
+		prerequisite = { focus = ONR_mechanizacja_piechoty }
+		x = 10
+		y = 4
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = ONR_modernizacja_czolgow_ii
+		icon = GFX_goal_generic_construct_infrastructure
+		prerequisite = { focus = ONR_modernizacja_czolgow }
+		x = 10
+		y = 5
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+}
