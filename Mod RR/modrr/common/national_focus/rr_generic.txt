@@ -1,0 +1,26 @@
+focus_tree = {
+	id = rr_generic_focus
+
+	country = {
+		factor = 5
+	}
+
+	default = yes
+	reset_on_civilwar = no
+
+	#przyszłe nowe genericowe drzewko
+
+	focus = {
+		id = rr_to_be_added
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 1
+		y = 0
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+}
