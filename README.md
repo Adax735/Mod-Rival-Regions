@@ -2,7 +2,7 @@
 
 Aby pobrać modyfikację kliknij zielony przycisk "Clone or download", następnie kliknij "Download ZIP". Po rozpakowaniu sprawdź plik readme.txt po dalsze instrukcje co do instalacji.
 
-##Linki
+## Linki
 
 [Grupa TG](https://t.me/hoi4modrr)
 
