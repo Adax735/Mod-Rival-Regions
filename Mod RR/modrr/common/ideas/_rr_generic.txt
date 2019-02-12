@@ -704,7 +704,7 @@ ideas = {
 	ideologie = {
 		law = yes
 
-		placeholder = {
+		to_be_added = {
 
 			cost = 150
 			removal_cost = -1

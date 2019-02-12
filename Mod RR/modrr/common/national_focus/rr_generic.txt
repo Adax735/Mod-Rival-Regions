@@ -1,26 +1,761 @@
-focus_tree = {
+focus_tree = { 
 	id = rr_generic_focus
 
-	country = {
-		factor = 5
+	country = { 
+		factor = 6
 	}
 
 	default = yes
 	reset_on_civilwar = no
 
-	#przyszłe nowe genericowe drzewko
-
 	focus = {
 		id = rr_to_be_added
-		icon = GFX_goal_generic_allies_build_infantry
-		x = 1
-		y = 0
-		cost = 10
 
-		available_if_capitulated = yes
+		prerequisite = { focus = rr_utworzeniepartii }
 
-		completion_reward = {
-			
-		}
-	}
-}
+		x = 22
+		y = 1
+
+		cost = 1
+ 	}
+
+#Focus for Elastyczna Marynarka
+focus = { 
+id = rr_elastycznamarynarka
+icon = GFX_goal_generic_navy_anti_submarine
+x = 8
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = rr_flota } 
+mutually_exclusive = { focus = rr_wielkamarynarka } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Siła
+focus = { 
+id = rr_sia
+icon = GFX_goal_generic_political_pressure
+x = 5
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = rr_rozwjperkw } 
+mutually_exclusive = { focus = rr_wiedza focus = rr_wytrzymao }ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Rozwój Perków
+focus = { 
+id = rr_rozwjperkw
+icon = GFX_focus_generic_the_giant_wakes
+x = 11
+y = 1
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = rr_utworzeniepartii } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Wiedza
+focus = { 
+id = rr_wiedza
+icon = GFX_goal_tfv_generic_tech_sharing
+x = 13
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = rr_rozwjperkw } 
+mutually_exclusive = { focus = rr_sia focus = rr_wytrzymao }ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Utworzenie Partii
+focus = { 
+id = rr_utworzeniepartii
+icon = GFX_goal_tfv_strengthen_commonwealth_ties
+x = 14
+y = 0
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Wytrzymałość
+focus = { 
+id = rr_wytrzymao
+icon = GFX_goal_generic_production
+x = 17
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = rr_rozwjperkw } 
+mutually_exclusive = { focus = rr_sia focus = rr_wiedza }ai_will_do = { 
+ factor = 1
+ } 
+
+ }   
+
+#Focus for Doktryny II
+focus = { 
+id = rr_doktrynyii
+icon = GFX_goal_generic_army_doctrines
+x = 1
+y = 7
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = rr_mechanizacja } 
+prerequisite = { focus = rr_wyposaenieii } 
+prerequisite = { focus = rr_doktryny } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Program Badawczy
+focus = { 
+id = rr_programbadawczy
+icon = GFX_goal_generic_intelligence_exchange
+x = 13
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = rr_sia focus = rr_wiedza focus = rr_wytrzymao } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Krążowniki
+focus = { 
+id = rr_krowniki
+icon = GFX_goal_generic_navy_cruiser
+x = 10
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = rr_wielkamarynarka focus = rr_elastycznamarynarka } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Niszczyciele
+focus = { 
+id = rr_niszczyciele
+icon = GFX_goal_generic_wolf_pack
+x = 8
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = rr_odziepodwodne } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Pancerniki
+focus = { 
+id = rr_pancerniki
+icon = GFX_goal_generic_navy_battleship
+x = 10
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = rr_krowniki } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Rozwój Floty
+focus = { 
+id = rr_rozwjfloty
+icon = GFX_goal_generic_navy_doctrines_tactics
+x = 9
+y = 7
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = rr_niszczyciele } 
+prerequisite = { focus = rr_pancerniki } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Rozwój Lotnictwa
+focus = { 
+id = rr_rozwjlotnictwa
+icon = GFX_goal_generic_air_doctrine
+x = 5
+y = 7
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = rr_myliwce focus = rr_samolotybwsparcia focus = rr_bombowce } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Wielka Marynarka
+focus = { 
+id = rr_wielkamarynarka
+icon = GFX_goal_generic_navy_carrier
+x = 10
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = rr_flota } 
+mutually_exclusive = { focus = rr_elastycznamarynarka } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Łodzie Podwodne
+focus = { 
+id = rr_odziepodwodne
+icon = GFX_goal_generic_navy_submarine
+x = 8
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = rr_wielkamarynarka focus = rr_elastycznamarynarka } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Ciężkie Samoloty
+focus = { 
+id = rr_cikiesamoloty
+icon = GFX_goal_generic_air_bomber
+x = 6
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = rr_lotnictwo } 
+mutually_exclusive = { focus = rr_lekkiesamoloty } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Lekkie Samoloty
+focus = { 
+id = rr_lekkiesamoloty
+icon = GFX_goal_generic_air_fighter
+x = 4
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = rr_lotnictwo } 
+mutually_exclusive = { focus = rr_cikiesamoloty } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Wyposażenie II
+focus = { 
+id = rr_wyposaenieii
+icon = GFX_goal_generic_army_artillery2
+x = 0
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = rr_wyposaenie } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Motoryzacja
+focus = { 
+id = rr_motoryzacja
+icon = GFX_goal_generic_army_motorized
+x = 2
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = rr_armia } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Doktryny
+focus = { 
+id = rr_doktryny
+icon = GFX_goal_generic_army_doctrines
+x = 1
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = rr_armia } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Wyposażenie
+focus = { 
+id = rr_wyposaenie
+icon = GFX_goal_generic_small_arms
+x = 0
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = rr_armia } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Flota
+focus = { 
+id = rr_flota
+icon = GFX_goal_generic_build_navy
+x = 9
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = rr_sia focus = rr_wiedza focus = rr_wytrzymao } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Lotnictwo
+focus = { 
+id = rr_lotnictwo
+icon = GFX_goal_generic_build_airforce
+x = 5
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = rr_sia focus = rr_wiedza focus = rr_wytrzymao } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Siła II
+focus = { 
+id = rr_siaii
+icon = GFX_goal_generic_political_pressure
+x = 5
+y = 8
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = rr_doktrynyii focus = rr_rozwjfloty focus = rr_rozwjlotnictwa focus = rr_dodatkowyzespbadawczy focus = rr_fabrykilng focus = rr_laboratoriahelu3 focus = rr_kopalnieuranu } 
+mutually_exclusive = { focus = rr_wiedzaii } 
+mutually_exclusive = { focus = rr_wytrzymaoii } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Wiedza II
+focus = { 
+id = rr_wiedzaii
+icon = GFX_goal_tfv_generic_tech_sharing
+x = 13
+y = 8
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = rr_doktrynyii focus = rr_rozwjfloty focus = rr_rozwjlotnictwa focus = rr_dodatkowyzespbadawczy focus = rr_fabrykilng focus = rr_laboratoriahelu3 focus = rr_kopalnieuranu } 
+mutually_exclusive = { focus = rr_siaii } 
+mutually_exclusive = { focus = rr_wytrzymaoii }
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Wytrzymałość II
+focus = { 
+id = rr_wytrzymaoii
+icon = GFX_goal_generic_production
+x = 17
+y = 8
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = rr_doktrynyii focus = rr_rozwjfloty focus = rr_rozwjlotnictwa focus = rr_dodatkowyzespbadawczy focus = rr_fabrykilng focus = rr_laboratoriahelu3 focus = rr_kopalnieuranu } 
+mutually_exclusive = { focus = rr_siaii } 
+mutually_exclusive = { focus = rr_wiedzaii } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Stacje Radarowe
+focus = { 
+id = rr_stacjeradarowe
+icon = GFX_goal_generic_radar
+x = 12
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = rr_rozwjinynierii } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Wydajniejszy Przemysł
+focus = { 
+id = rr_wydajniejszyprzemys
+icon = GFX_goal_generic_air_production
+x = 14
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = rr_rozwjinynierii } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Program Jądrowy
+focus = { 
+id = rr_programjdrowy
+icon = GFX_focus_wonderweapons
+x = 14
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = rr_wydajniejszyprzemys } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Rozwój Inżynierii
+focus = { 
+id = rr_rozwjinynierii
+icon = GFX_goal_generic_production2
+x = 13
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = rr_programbadawczy } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Armia
+focus = { 
+id = rr_armia
+icon = GFX_goal_generic_axis_build_infantry
+x = 1
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = rr_sia focus = rr_wiedza focus = rr_wytrzymao } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Mechanizacja
+focus = { 
+id = rr_mechanizacja
+icon = GFX_goal_generic_army_tanks
+x = 2
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = rr_motoryzacja } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Dodatkowy Zespół Badawczy
+focus = { 
+id = rr_dodatkowyzespbadawczy
+icon = GFX_focus_research2
+x = 13
+y = 7
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = rr_programjdrowy focus = rr_rozwjtechnologiirakietowej } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Rozwój Technologii Rakietowej
+focus = { 
+id = rr_rozwjtechnologiirakietowej
+icon = GFX_focus_rocketry
+x = 12
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = rr_stacjeradarowe } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Laboratoria Helu-3
+focus = { 
+id = rr_laboratoriahelu3
+icon = GFX_goal_generic_construct_civ_factory
+x = 15
+y = 7
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = rr_rafinerieropy focus = rr_zwikszenieindeksurozwojuii focus = rr_kopalniediamentw } 
+mutually_exclusive = { focus = rr_fabrykilng } 
+mutually_exclusive = { focus = rr_kopalnieuranu } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Kopalnie Uranu
+focus = { 
+id = rr_kopalnieuranu
+icon = GFX_goal_generic_construct_infrastructure
+x = 17
+y = 7
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = rr_rafinerieropy focus = rr_kopalniediamentw focus = rr_zwikszenieindeksurozwojuii } 
+mutually_exclusive = { focus = rr_laboratoriahelu3 } 
+mutually_exclusive = { focus = rr_fabrykilng } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Kopalnie Diamentów
+focus = { 
+id = rr_kopalniediamentw
+icon = GFX_goal_generic_construct_mil_factory
+x = 18
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = rr_kamienioomy } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Zwiększenie Indeksu Rozwoju II
+focus = { 
+id = rr_zwikszenieindeksurozwojuii
+icon = GFX_goal_generic_construct_infrastructure
+x = 17
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = rr_zwikszenieindeksurozwoju } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Rafinerie Ropy
+focus = { 
+id = rr_rafinerieropy
+icon = GFX_goal_generic_construct_civ_factory
+x = 16
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = rr_kopalniezota } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Kopalnie Złota
+focus = { 
+id = rr_kopalniezota
+icon = GFX_goal_generic_construct_civ_factory
+x = 15
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = rr_rozwjgospodarki } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Kamieniołomy
+focus = { 
+id = rr_kamienioomy
+icon = GFX_goal_generic_construct_mil_factory
+x = 19
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = rr_rozwjgospodarki } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Zwiększenie Indeksu Rozwoju
+focus = { 
+id = rr_zwikszenieindeksurozwoju
+icon = GFX_goal_generic_construct_infrastructure
+x = 17
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = rr_rozwjgospodarki } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Rozwój Gospodarki
+focus = { 
+id = rr_rozwjgospodarki
+icon = GFX_goal_generic_construct_civilian
+x = 17
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = rr_sia focus = rr_wiedza focus = rr_wytrzymao } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Bombowce Morskie
+focus = { 
+id = rr_bombowcemorskie
+icon = GFX_goal_generic_air_naval_bomber
+x = 5
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = rr_cikiesamoloty focus = rr_lekkiesamoloty } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Bombowce
+focus = { 
+id = rr_bombowce
+icon = GFX_goal_generic_occupy_start_war
+x = 6
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = rr_cikiesamoloty } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Myśliwce
+focus = { 
+id = rr_myliwce
+icon = GFX_goal_generic_air_fighter2
+x = 3
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = rr_lekkiesamoloty } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Samoloty b.wsparcia
+focus = { 
+id = rr_samolotybwsparcia
+icon = GFX_goal_generic_CAS
+x = 4
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = rr_lekkiesamoloty } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Fabryki LNG
+focus = { 
+id = rr_fabrykilng
+icon = GFX_goal_generic_construct_mil_factory
+x = 19
+y = 7
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = rr_zwikszenieindeksurozwojuii focus = rr_rafinerieropy focus = rr_kopalniediamentw } 
+mutually_exclusive = { focus = rr_laboratoriahelu3 } 
+mutually_exclusive = { focus = rr_kopalnieuranu } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#End of focuses 
+ }
