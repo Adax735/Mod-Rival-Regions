@@ -9,10 +9,11 @@
 +=======================================+
 
 
-Dzięki za pobranie Moda RR. Jeśli masz jakieś pytania, sugestie bądź cokolwiek innego wchodź śmiało na grupę TG lub
-serwer Discord developerów modyfikacji.
-Grupa na Telegramie - https://t.me/joinchat/Hv9-iRF7tyzVYaN2W9Jf8Q
+Dzięki za pobranie Moda RR. Jeśli masz jakieś pytania, sugestie bądź cokolwiek innego wchodź śmiało na Naszą grupę TG lub serwer Discord.
+
+Grupa na Telegramie - https://t.me/hoi4modrr
 Serwer Discord - https://discord.gg/JMd5XgW
+
 
 Poniżej znajdziesz instrukcje jak zainstalować moda na wersji steam jak i cracku.
 
@@ -21,6 +22,7 @@ Poniżej znajdziesz instrukcje jak zainstalować moda na wersji steam jak i crac
 2. Przenosisz tam folder modrr oraz plik modrr.mod
 
 3. Odpalasz HoI IV i cieszysz się modyfikacją
+
 
 Jeżeli nie masz Dokumenty/Paradox Interactive/Hearts of Iron IV/mod masz dwie możliwości:
 - pobrać dowolny mod ze Steam Workshop
