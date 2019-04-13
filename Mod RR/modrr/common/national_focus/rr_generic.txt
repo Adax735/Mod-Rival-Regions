@@ -8,17 +8,6 @@ focus_tree = {
 	default = yes
 	reset_on_civilwar = no
 
-	focus = {
-		id = rr_to_be_added
-
-		prerequisite = { focus = rr_utworzeniepartii }
-
-		x = 22
-		y = 1
-
-		cost = 1
- 	}
-
 	#Focus for Elastyczna Marynarka
 	
 	focus = { 
@@ -58,29 +47,11 @@ focus_tree = {
 		
 		available_if_capitulated = yes 
 		
-		prerequisite = { focus = rr_rozwjperkw } 
+		prerequisite = { focus = rr_utworzeniepartii } 
 		mutually_exclusive = { focus = rr_wiedza focus = rr_wytrzymao }
 
 		completion_reward = {
 			add_ideas = sila
-		}
-	}
-
-	#Focus for Rozwój Perków
-	
-	focus = {
-		id = rr_rozwjperkw
-		icon = GFX_focus_generic_the_giant_wakes
-		x = 11
-		y = 1
-		cost = 5
-		
-		available_if_capitulated = yes 
-		
-		prerequisite = { focus = rr_utworzeniepartii }
-
-		completion_reward = {
-			add_political_power = 150
 		}
 	}
 
@@ -95,7 +66,7 @@ focus_tree = {
 		
 		available_if_capitulated = yes 
 		
-		prerequisite = { focus = rr_rozwjperkw } 
+		prerequisite = { focus = rr_utworzeniepartii } 
 		mutually_exclusive = { focus = rr_sia focus = rr_wytrzymao }
 
 		completion_reward = {
@@ -108,8 +79,8 @@ focus_tree = {
 	focus = { 
 		id = rr_utworzeniepartii
 		icon = GFX_goal_tfv_strengthen_commonwealth_ties
-		x = 14
-		y = 0
+		x = 11
+		y = 1
 		cost = 10
 		
 		available_if_capitulated = yes 
@@ -129,7 +100,7 @@ focus_tree = {
 		
 		available_if_capitulated = yes 
 
-		prerequisite = { focus = rr_rozwjperkw } 
+		prerequisite = { focus = rr_utworzeniepartii } 
 		mutually_exclusive = { focus = rr_sia focus = rr_wiedza }
 
 		completion_reward = {
@@ -163,20 +134,26 @@ focus_tree = {
 		}
  	} 
 
-#Focus for Program Badawczy
-focus = { 
-id = rr_programbadawczy
-icon = GFX_goal_generic_intelligence_exchange
-x = 13
-y = 3
-cost = 10
-available_if_capitulated = yes 
-prerequisite = { focus = rr_sia focus = rr_wiedza focus = rr_wytrzymao } 
-ai_will_do = { 
- factor = 1
- } 
+	#Focus for Program Badawczy
 
- } 
+	focus = { 
+		id = rr_programbadawczy
+		icon = GFX_goal_generic_intelligence_exchange
+		x = 13
+		y = 3
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = rr_sia focus = rr_wiedza focus = rr_wytrzymao }
+		
+		completion_reward = {
+			add_research_slot = 1
+		}
+
+		ai_will_do = { 
+		factor = 1
+ 		} 
+
+ 		}
 
 	#Focus for Krążowniki
 	
@@ -615,23 +592,31 @@ ai_will_do = {
 		completion_reward = {
 			add_ideas = wytrzymaloscii
 		}
+	}
 
- } 
+	#Focus for Stacje Radarowe
+	
+	focus = { 
+		id = rr_stacjeradarowe
+		icon = GFX_goal_generic_radar
+		x = 12
+		y = 5
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = rr_rozwjinynierii } 
+		ai_will_do = { 
+ 		factor = 1
+ 		}
 
-#Focus for Stacje Radarowe
-focus = { 
-id = rr_stacjeradarowe
-icon = GFX_goal_generic_radar
-x = 12
-y = 5
-cost = 10
-available_if_capitulated = yes 
-prerequisite = { focus = rr_rozwjinynierii } 
-ai_will_do = { 
- factor = 1
- } 
-
- } 
+ 		completion_reward = {
+ 			add_tech_bonus = {
+					name = electronics_bonus
+					bonus = 0.5
+					uses = 1
+					category = electronics
+			}
+ 		}
+ 	}
 
 #Focus for Wydajniejszy Przemysł
 focus = { 
@@ -645,6 +630,15 @@ prerequisite = { focus = rr_rozwjinynierii }
 ai_will_do = { 
  factor = 1
  } 
+
+ completion_reward = {
+ 	add_tech_bonus = {
+					name = industrial_bonus
+					bonus = 0.5
+					uses = 1
+					category = industry
+				}	
+ }
 
  } 
 
@@ -661,7 +655,16 @@ ai_will_do = {
  factor = 1
  } 
 
- } 
+ completion_reward = {
+ 	add_tech_bonus = {
+				name = nuclear_bonus
+				uses = 2
+				ahead_reduction = 0.5
+				category = nuclear
+			}
+ }
+
+ }
 
 	#Focus for Rozwój Inżynierii
 	
@@ -676,7 +679,20 @@ ai_will_do = {
 		
 		prerequisite = { focus = rr_programbadawczy } 
 
-
+		completion_reward = {
+			add_tech_bonus = {
+					name = electronics_bonus
+					bonus = 0.5
+					uses = 1
+					category = electronics
+			}
+			add_tech_bonus = {
+					name = industrial_bonus
+					bonus = 0.5
+					uses = 1
+					category = industry
+			}
+		}
  	} 
 
 	#Focus for Armia
@@ -739,6 +755,10 @@ ai_will_do = {
  factor = 1
  } 
 
+ completion_reward = {
+			add_research_slot = 1
+		}
+
  } 
 
 #Focus for Rozwój Technologii Rakietowej
@@ -753,6 +773,16 @@ prerequisite = { focus = rr_stacjeradarowe }
 ai_will_do = { 
  factor = 1
  } 
+
+ completion_reward = {
+			add_tech_bonus = {
+				name = jet_rocket_bonus
+				ahead_reduction = 0.5
+				uses = 2
+				category = rocketry
+				category = jet_technology
+			}
+		}
 
  } 
 
@@ -771,6 +801,48 @@ ai_will_do = {
  factor = 1
  } 
 
+ complete_tooltip = {
+			add_extra_state_shared_building_slots = 4
+			add_building_construction = {
+				type = industrial_complex
+				level = 4
+				instant_build = yes
+			}			
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = industrial_complex
+					level = 4
+					instant_build = yes
+				}
+			}
+		}
+
  } 
 
 #Focus for Kopalnie Uranu
@@ -788,6 +860,76 @@ ai_will_do = {
  factor = 1
  } 
 
+ complete_tooltip = {
+			add_building_construction = {
+				type = infrastructure
+				level = 4
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = infrastructure
+				level = 4
+				instant_build = yes
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 4
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 4
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 4
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 4
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 4
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 4
+					instant_build = yes
+				}
+			}
+		}
+
  } 
 
 #Focus for Kopalnie Diamentów
@@ -802,6 +944,48 @@ prerequisite = { focus = rr_kamienioomy }
 ai_will_do = { 
  factor = 1
  } 
+
+ complete_tooltip = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = arms_factory
+				level = 2
+				instant_build = yes
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 1
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
 
  } 
 
@@ -818,6 +1002,76 @@ ai_will_do = {
  factor = 1
  } 
 
+ complete_tooltip = {
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 1
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 1
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 2
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 2
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+
  } 
 
 #Focus for Rafinerie Ropy
@@ -832,6 +1086,48 @@ prerequisite = { focus = rr_kopalniezota }
 ai_will_do = { 
  factor = 1
  } 
+
+ complete_tooltip = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}			
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
 
  } 
 
@@ -848,6 +1144,48 @@ ai_will_do = {
  factor = 1
  } 
 
+complete_tooltip = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}			
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+
  } 
 
 #Focus for Kamieniołomy
@@ -862,6 +1200,48 @@ prerequisite = { focus = rr_rozwjgospodarki }
 ai_will_do = { 
  factor = 1
  } 
+
+ complete_tooltip = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = arms_factory
+				level = 2
+				instant_build = yes
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 1
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
 
  } 
 
@@ -878,6 +1258,76 @@ ai_will_do = {
  factor = 1
  } 
 
+ 		complete_tooltip = {
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 1
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 1
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 2
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 2
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+
  } 
 
 #Focus for Rozwój Gospodarki
@@ -892,6 +1342,15 @@ prerequisite = { focus = rr_sia focus = rr_wiedza focus = rr_wytrzymao }
 ai_will_do = { 
  factor = 1
  } 
+
+ completion_reward = {
+ 	add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 0.5
+				uses = 1
+				category = industry
+			}
+ }
 
  } 
 
@@ -996,7 +1455,7 @@ ai_will_do = {
  	} 
 
 #Focus for Fabryki LNG
-focus = { 
+focus = {
 id = rr_fabrykilng
 icon = GFX_goal_generic_construct_mil_factory
 x = 19
@@ -1009,6 +1468,48 @@ mutually_exclusive = { focus = rr_kopalnieuranu }
 ai_will_do = { 
  factor = 1
  } 
+
+ complete_tooltip = {
+			add_extra_state_shared_building_slots = 4
+			add_building_construction = {
+				type = arms_factory
+				level = 4
+				instant_build = yes
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 3
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 3
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = arms_factory
+					level = 4
+					instant_build = yes
+				}
+			}
+		}
 
  } 
 
