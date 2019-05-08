@@ -1,6 +1,6 @@
-# HoI IV Mod RRPL v. 1.1:1.5.4
+# HoI IV Mod RRPL v. 1.1:1.6
 
-MOD DZIAŁA TYLKO NA WERSJI 1.5.4 I NIE JEST PLANOWANE JEGO DALSZE ROZWIJANIE BĄDŹ KONWERSJA NA 1.6.X
+Branch do konwersji moda na wersje 1.6, WIP.
 
 ## Autorzy
 
